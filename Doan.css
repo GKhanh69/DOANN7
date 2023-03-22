@@ -23,17 +23,6 @@ body{
     font-size: xxx-large;
     font-family:fantasy;
 }
-.searchbar input[type=text]{
-    color: gray;
-    padding: 6px;
-    border: 3px solid gray;
-    margin-top: 8px;
-    margin-right: 16px;
-    font-size: 17px;
-    height: 30px;
-    border-radius: 15%;
-    width: 250px;
-}
 .login button{
     height: 45px;
     width: 200px;
@@ -44,46 +33,4 @@ body{
     font-weight: bolder;
     border: 2px solid green;
 }
-.menubar{
-    position: absolute;
-    height: 100%;
-    width: 100px;
-    background-color: lavender;
-    display: grid;
-    grid-template-rows: 20% 20% 20% 20% 20%;
-}
-.home button{
-    height: 100px;
-    width: 100px;
-    margin-top: auto;
-    background-color: white;
-    border: 0px;
-}
-.recomend button{
-    height: 100px;
-    width: 100px;
-    margin-top: auto;
-    background-color: white;
-    border: 0px;
-}
-.rest button{
-    height: 100px;
-    width: 100px;
-    margin-top: auto;
-    background-color: white;
-    border: 0px;
-}
-.comment button{
-    height: 100px;
-    width: 100px;
-    margin-top: auto;
-    background-color: white;
-    border: 0px;
-}
-.contact button{
-    height: 100px;
-    width: 100px;
-    margin-top: auto;
-    background-color: white;
-    border: 0px;
-}
+

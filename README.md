@@ -26,6 +26,7 @@ Then, you should download the image (male.jpg and female.jpg) and put it in the 
 ![image](https://user-images.githubusercontent.com/91239082/226745914-1e2e4ec8-314b-42ff-a309-b1205f845173.png)
 
 You should download the image (golden-bridge, ha-noi, hoi-an) and put it in the following folder:
+
 ![image](https://user-images.githubusercontent.com/91239082/226914777-4568f7ab-423c-4495-8ab0-0eaddd4bdcb6.png)
 
 ![image](https://user-images.githubusercontent.com/91239082/226914393-b19c5e1d-3a59-417e-aa23-b1c497804749.png)

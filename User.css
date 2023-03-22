@@ -1,0 +1,36 @@
+.txt{
+    font-size: xx-large;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    color: green;
+}
+.uname{
+    text-align: center;
+    color: gray;
+}
+.uname input[type=text]{
+    padding-left: 20px;
+    height: 50px;
+    width: 450px;
+    font-size: x-large;
+    border-radius: 15%;
+    border: 2px solid green;
+}
+.pword{
+    text-align: center;
+    color: gray;
+    padding-top: 50px;
+}
+.pword input[type=text]{
+    padding-left: 20px;
+    height: 50px;
+    width: 450px;
+    font-size: x-large;
+    border-radius: 15%;
+    border: 2px solid green;
+}
+.btnlogin{
+    text-align: center;
+    padding-top: 50px;
+}

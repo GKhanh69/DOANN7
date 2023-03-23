@@ -153,65 +153,12 @@ ul {
 }
 */
 /* slider chưa làm được nên để đỡ slider có màu nền */
-#slider {
+/* #slider {
     margin-top: 78px; 
     padding-top: 30%;
     background-color: wheat;
 
-}
-#content{
-    margin-top: 78px;
-}
-/* thành phần chung */
-#content .content-section {
-    width: 800px;
-    padding: 64px 0;
-    margin-left: auto;
-    margin-right: auto;
-}
-#content .section-heading {
-    font-size: 30px;
-    text-align: center;
-    font-weight: 500;
-    letter-spacing: 4px;
-}
-#content .section-sub-heading  {
-    font-size: 15px;
-    text-align: center;
-    margin-top: 25px;
-    font-style: italic;
-    /* độ trong suốt từ 0-1 */
-    opacity: 0.6;
-}
-#content .about-text {
-    margin-top: 25px;
-    font-size: 15px;
-    text-align: justify;
-    /* độ cao giữa các dòng chữ với nhau */
-    line-height: 1.4;
-}
-#content .member-list {
-    margin-top: 48px;
-}
-#content .member-item {
-    float: left;
-    width: calc(100% / 5);
-    text-align: center;
-}
-#content .member-name {
-    font-size: 15px;
-}
-#content .member-img {
-    width: 150px;
-    margin-top: 15px;
-    border-radius: 6px;
-}
-#footer{
-
-}
-
-
-
+} */
 
 
 /*slider*/
@@ -219,6 +166,7 @@ ul {
     max-width: 1000px;
     position: relative;
     margin: auto;
+    margin-top: 110px;
     background-color: #004444;
     text-align: center;
 }
@@ -247,6 +195,9 @@ ul {
   .next {
     right: 0;
     border-radius: 3px 0 0 3px;
+  }
+  .prev {
+    left: 0;
   }
   
   /* On hover, add a black background color with a little bit see-through */
@@ -300,4 +251,57 @@ ul {
     from {opacity: .4}
     to {opacity: 1}
   }
+
+#content{
+    margin-top: 78px;
+}
+/* thành phần chung */
+#content .content-section {
+    width: 800px;
+    padding: 64px 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+#content .section-heading {
+    font-size: 30px;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 4px;
+}
+#content .section-sub-heading  {
+    font-size: 15px;
+    text-align: center;
+    margin-top: 25px;
+    font-style: italic;
+    /* độ trong suốt từ 0-1 */
+    opacity: 0.6;
+}
+#content .about-text {
+    margin-top: 25px;
+    font-size: 15px;
+    text-align: justify;
+    /* độ cao giữa các dòng chữ với nhau */
+    line-height: 1.4;
+}
+#content .member-list {
+    margin-top: 48px;
+}
+#content .member-item {
+    float: left;
+    width: calc(100% / 5);
+    text-align: center;
+}
+#content .member-name {
+    font-size: 15px;
+}
+#content .member-img {
+    width: 150px;
+    margin-top: 15px;
+    border-radius: 6px;
+}
+#footer{
+
+}
+
+
 

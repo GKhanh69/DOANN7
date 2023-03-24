@@ -26,6 +26,7 @@ html {
     height: 78px;
     background-color: #004444;
     transition: all .9s ease-in-out;
+    z-index: 2;
 }
 .header-topbar {
     background-color: #0e6666;
@@ -152,13 +153,6 @@ ul {
     transform: translateX(-50%);
 }
 */
-/* slider chưa làm được nên để đỡ slider có màu nền */
-/* #slider {
-    margin-top: 78px; 
-    padding-top: 30%;
-    background-color: wheat;
-
-} */
 
 
 /*slider*/
@@ -169,6 +163,7 @@ ul {
     margin-top: 110px;
     background-color: #004444;
     text-align: center;
+    z-index: 1;
 }
 .mySlides {
     display: none;

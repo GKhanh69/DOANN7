@@ -278,11 +278,20 @@ ul {
     margin-left: auto;
     margin-right: auto;
 }
-#content .section-heading {
-    font-size: 30px;
+.section-heading {
+    font-size: 2rem;
     text-align: center;
-    font-weight: 500;
-    letter-spacing: 4px;
+    color: orange;
+
+}
+.section-heading span{
+  background:rgba(255, 165, 0,.2);
+  color:var(--orange);
+  border-radius: .5rem;
+  padding:.2rem 1rem;
+}
+.section-heading .space{
+    background: none;
 }
 #content .section-sub-heading  {
     font-size: 15px;
@@ -316,6 +325,35 @@ ul {
     margin-top: 15px;
     border-radius: 6px;
 }
-#footer{
-
+.footer{
+    background-color: #333;
+}
+.footer #footer-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.5rem;
+}
+.footer #footer-container .box{
+    padding:1rem 0;
+    flex:1 1 25rem;
+}
+.footer #footer-container .box h3{
+    font-size: 2.5rem;
+    padding:.7rem 0;
+    color:#fff;
+}
+.footer #footer-container .box p{
+    font-size: 1.5rem;
+    padding:.7rem 0;
+    color:#eee;
+}
+.footer #footer-container .box a{
+    display: block;
+    font-size: 1rem;
+    padding:.7rem 0;
+    color:#eee;
+}
+.footer #footer-container .box a:hover{
+    color:var(--orange)
+    text-decoration: underline;
 }

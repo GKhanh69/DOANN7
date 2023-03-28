@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>F5 Travel</title>
+</head>
+<header>
+    <div class="logo">
+        <img src="logof5travel.png" width="270" height="80">
+    </div>
+    <div class="menu">
+        <li><a href="Home.html">HOME</a></li>
+        <li><a href="About.html">ABOUT</a></li>
+        <li><a href="Recommend.html">RECOMMEND</a></li>
+        <li><a href="Offers.html">OFFERS</a></li>
+        <li><a href="Blog.html">BLOG</a></li>
+        <li><a href="Contact.html">CONTACT</a></li>
+    </div>
+    <div class="others">
+        <li><input placeholder="Search F5Travel" type="text" id="search"><i class="search"></i></li>
+        <li><a href="#search"><img src="search.png" width="20" height="20"></a></li>
+        <li>|</li>
+        <li><a href="Login.html"><img src="user.png" width="27" height="27"></a></li>
+    </div>
+</header>
+<body>
+<section id="slider">
+<div class="aspect-ratio-169">
+    <img src="hanoi.jpg" title="Hà Nội">
+    <img src="hoian.jpg" title="Thành phố Hội An">
+    <img src="tphcm.jpg" title="Thành phố Hồ Chí Minh">
+    <img src="vinhhalong.jpg" title="Vịnh Hạ Long">
+    <img src="danang.jpg" title="Đà Nẵng">
+</div>
+<div class="dot-container">
+    <div class="dot active"></div>
+    <div class="dot"></div>
+    <div class="dot"></div>
+    <div class="dot"></div>
+    <div class="dot"></div>
+</div>
+</section>
+</body>
+<script>
+const imgPosition = document.querySelectorAll(".aspect-ratio-169 img")
+const imgContainer = document.querySelector('.aspect-ratio-169')
+const dotItems = document.querySelectorAll(".dot")
+let imgNumber = imgPosition.length
+let index = 0
+imgPosition.forEach(function(image, index){
+    image.style.left = index*100 + "%"
+    dotItems[index].addEventListener("click", function(){
+        slider(index)
+    })
+})
+function imgSlide (){
+    index++;
+    console.log(index)
+    if(index>=imgNumber) {index=0}
+    slider(index)
+}
+function slider (index){
+    imgContainer.style.left = "-" + index*100 + "%"
+    const dotActive = document.querySelector('.active')
+    dotActive.classList.remove("active")
+    dotItems[index].classList.add("active")
+}
+setInterval(imgSlide, 5000)
+</script> 
+<footer>
+    <div class="box-1">
+        <img src="logof5travel.png" width="270" height="80">
+        <p>F5 Travel với sứ mệnh nâng tầm vị thế du lịch Việt Nam, mang hình ảnh Việt Nam đến khắp năm châu thông qua việc cung cấp các trải nghiệm, sản phẩm, dịch vụ độc đáo, chứa đựng giá trị văn hóa tinh thần, giữ gìn văn hóa, bản sắc dân tộc</p>
+    </div>
+    <div class="box-2">
+        <div class="box">
+            <h3>Branch locations</h3>
+            <p><a href="#">Hà Nội</a></p>
+            <p><a href="#">Đà Nẵng</a></p>
+            <p><a href="#">Đà Lạt</a></p>
+            <p><a href="#">Hồ Chí Minh</a></p>
+        </div>
+        <div class="box">
+            <h3>Quick links</h3>
+            <p><a href="#">Home</a></p>
+            <p><a href="#">Book</a></p>
+            <p><a href="#">Packages</a></p>
+            <p><a href="#">Services</a></p>
+            <p><a href="#">Gallery</a></p>
+            <p><a href="#">Review</a></p>
+            <p><a href="#">Contact</a></p>
+        </div>
+        <div class="box">
+            <h3>Follow us</h3>
+            <p><a href="#">Facebook</a></p>
+            <p><a href="#">Instagram</a></p>
+            <p><a href="#">Twitter</a></p>
+            <p><a href="#">Linkedin</a></p>
+        </div>
+    </div>
+</footer>
+<section>   
+    <h2 class="credit"><img src="copyright.png" weight="18px" height="18px"> Created by <span style="color: #ffde59;"> N7 </span> - All rights reserved! </h2>
+</section>
+
+</html>

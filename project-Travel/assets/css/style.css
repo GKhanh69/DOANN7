@@ -286,8 +286,16 @@ ul {
     width: calc(100% / 5);
     text-align: center;
 }
-#content .member-name {
-    font-size: 15px;
+#content .member-item > a {
+    font-size: 17px;
+    font-style: bold;
+    text-decoration: none;
+    color: #000000;
+}
+#content .member-item > a:hover {
+    color: #000000;
+    box-shadow: 0 3px #004444;
+    transition: box-shadow 0.3s;
 }
 #content .member-img {
     width: 150px;
@@ -328,6 +336,7 @@ ul {
     font-size: 0.75rem;
     padding:.7rem 0;
     color:#eee;
+    text-decoration: none;
  }
   
  .footer .box-container .box a:hover{

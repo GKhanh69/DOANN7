@@ -24,7 +24,7 @@ html {
     top: 0;
     left: 0;
     right: 0;
-    height: 78px;
+    height: 160px;
     background-color: #004444;
     transition: all .9s ease-in-out;
     z-index: 2;
@@ -92,7 +92,7 @@ ul {
     display: inline-block;
     float: none;
     position: absolute;
-    top: 72%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -105,7 +105,7 @@ ul {
 }
 #nav li {
     position: relative;
-    font-size: 12px;
+    font-size: 15px;
 }
 #nav > li > a {
     color: #fff;
@@ -125,11 +125,12 @@ ul {
 #header .search-btn {
     float: right;
     padding: 0 40px;
+    margin-top: 40px;
 }
 #header .title {
     display:inline-block ;
     margin-left: 140px;
-    margin-top: 7px;
+    margin-top: 46px;
     margin-bottom: 13px;
 }
 #header .search-btn:hover {
@@ -238,7 +239,7 @@ ul {
 /* ======================================================================================================================= */
 
 #content{
-    margin-top: 78px;
+    margin-top: 930px;
 }
 /* thành phần chung */
 #content .content-section {

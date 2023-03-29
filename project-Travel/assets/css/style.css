@@ -129,6 +129,7 @@ ul {
 #header .title {
     display:inline-block ;
     margin-left: 140px;
+    margin-top: 7px;
     margin-bottom: 13px;
 }
 #header .search-btn:hover {

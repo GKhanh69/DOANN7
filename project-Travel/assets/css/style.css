@@ -14,18 +14,6 @@ html {
 .clear {
     clear: both;
 }
-/*
-1. Từ ngoài vào trong
-2. Từ trên xuống dưới
-3. Tổng quan -> Chi tiết 
-*/
-
- /*
-1. Vị trí
-2. Kích thước (width, height)
-3. Màu sắc
-4. Kiểu dáng 
- */
 
 #main {
  
@@ -36,7 +24,7 @@ html {
     top: 0;
     left: 0;
     right: 0;
-    height: 78px;
+    height: 160px;
     background-color: #004444;
     transition: all .9s ease-in-out;
     z-index: 2;
@@ -104,7 +92,7 @@ ul {
     display: inline-block;
     float: none;
     position: absolute;
-    top: 72%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -117,7 +105,7 @@ ul {
 }
 #nav li {
     position: relative;
-    font-size: 12px;
+    font-size: 15px;
 }
 #nav > li > a {
     color: #fff;
@@ -137,10 +125,12 @@ ul {
 #header .search-btn {
     float: right;
     padding: 0 40px;
+    margin-top: 40px;
 }
 #header .title {
     display:inline-block ;
     margin-left: 140px;
+    margin-top: 46px;
     margin-bottom: 13px;
 }
 #header .search-btn:hover {
@@ -152,27 +142,6 @@ ul {
     font-size: 20px; 
     line-height: 46px ;
 } 
-/* 
-#slider{
-    margin-top: 78px; không bị chèn vào phần header
-    padding-top: 50%;
-    background: url('/assets/img/slider/slider2.jpg') top center / cover no-repeat; 
-}
-#slider .text-content {
-    position: absolute;
-    padding: 22px;
-    bottom: 22px;
-    left: 50%;
-    transform: translateX(-50%);
-}
-*/
-/* slider chưa làm được nên để đỡ slider có màu nền */
-/* #slider {
-    margin-top: 78px; 
-    padding-top: 30%;
-    background-color: wheat;
-
-} */
 
 /* ============================================================= */
 
@@ -270,7 +239,7 @@ ul {
 /* ======================================================================================================================= */
 
 #content{
-    margin-top: 78px;
+    margin-top: 930px;
 }
 /* thành phần chung */
 #content .content-section {
@@ -318,8 +287,16 @@ ul {
     width: calc(100% / 5);
     text-align: center;
 }
-#content .member-name {
-    font-size: 15px;
+#content .member-item > a {
+    font-size: 17px;
+    font-style: bold;
+    text-decoration: none;
+    color: #000000;
+}
+#content .member-item > a:hover {
+    color: #000000;
+    box-shadow: 0 3px #004444;
+    transition: box-shadow 0.3s;
 }
 #content .member-img {
     width: 150px;
@@ -327,65 +304,66 @@ ul {
     border-radius: 6px;
 }
 
-  .footer{
+ .footer{
     background:#333;
-  }
+ }
   
-  .footer .box-container{
+ .footer .box-container{
     display: flex;
     flex-wrap: wrap;
     gap:1.5rem;
     padding-left: 10%;
     padding-right: 10%;
-  }
+ }
   
-  .footer .box-container .box{
+ .footer .box-container .box{
     flex:1 1 5rem;
-  }
+ }
   
-  .footer .box-container .box h3{
+ .footer .box-container .box h3{
     font-size: 1.5rem;
     padding:.7rem 0;
     color:#fff;
-  }
+ }
   
-  .footer .box-container .box p{
+ .footer .box-container .box p{
     font-size: 0.75rem;
     padding:.7rem 0;
     color:#eee;
-  }
+ }
   
-  .footer .box-container .box a{
+ .footer .box-container .box a{
     display: block;
     font-size: 0.75rem;
     padding:0.5rem 0;
     color:#eee;
-  }
+    text-decoration: none;
+ }
   
-  .footer .box-container .box a:hover{
+ .footer .box-container .box a:hover{
     color:orange;
-  }
+ }
   
-  .footer .credit{
+ .footer .credit{
     text-align: center;
-    padding:2rem 1rem;
+    padding:1rem 1rem;
     margin-top: 1rem;
-    font-size: 2rem;
+    font-size: 1rem;
     font-weight: normal;
     color:#fff;
     border-top: .1rem solid rgba(255,255,255,.2);
-  }
+ }
   
-  .footer .credit span{
+ .footer .credit span{
     color: orange;
-  }
+ }
   
-  .footer .box-container .box .img{
+ .footer .box-container .box .img{
     display: flex;
     border-radius: 50%;
     height: 50px;
     width: 50px;
     object-fit: cover;
-  }
+ }
   
   

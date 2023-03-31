@@ -131,3 +131,10 @@ textarea{
 		height: 200px;
 	}
 }
+.btn{
+	color: white;
+	height: 50px;
+	width: 200px;
+	background-color: orange;
+	border: 0;
+}

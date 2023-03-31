@@ -402,4 +402,49 @@ ul {
 
 
  /*================================================================================================================*/
-
+#recommend .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+#recommend .box-container .box{
+    flex:1 1 30rem;
+    border-radius: .5rem;
+    overflow: hidden;
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
+}
+#recommend .box-container .box img{
+    height: 25rem;
+    width: 100%;
+    object-fit: cover;
+}
+#recommend .box-container .box .content{
+    padding: 2rem;
+}
+#recommend .box-container .box .content h3{
+    color: #333;
+}
+#recommend .box-container .box .content h3 i{
+    color: orange;
+}
+#recommend .box-container .box .content p{
+    color: #666;
+    padding: 10px 0;
+}
+#recommend .box-container .box .content .stars i{
+    color: orange;
+}
+#recommend .box-container .box .content .price{
+    padding-top: 10px;
+    color: #333;
+}
+#recommend .box-container .box .content .price span{
+    color:#666;
+    font-size: small;
+     text-decoration: line-through;
+}
+#recommend .box-container .box .content .btn {
+    height: 25px;
+    width: 100px;
+    background-color: orange;
+}

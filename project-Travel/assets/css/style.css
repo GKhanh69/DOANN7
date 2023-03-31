@@ -238,9 +238,7 @@ ul {
 }
 /* ======================================================================================================================= */
 
-#content{
-    margin-top: 930px;
-}
+
 /* thành phần chung */
 #content .content-section {
     width: 800px;
@@ -249,7 +247,7 @@ ul {
     margin-right: auto;
 }
 .section-heading {
-    font-size: 2rem;
+    font-size: 1.75rem;
     text-align: center;
     color: orange;
 
@@ -342,6 +340,7 @@ ul {
   
  .footer .box-container .box a:hover{
     color:orange;
+    text-decoration: underline;
  }
   
  .footer .credit{

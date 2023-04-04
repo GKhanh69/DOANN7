@@ -459,22 +459,37 @@ ul {
 
 
  /*================================================================================================================*/
- .login-form-container form{
+ #login-form-container{
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+    padding-left: 10%;
+ }
+ #login-form-container form{
+    text-align: center;
     margin:2rem;
     padding:1.5rem 2rem;
     border-radius: .5rem;
     background:#fff;
-    width:50rem;
+    width:20rem;
   }
   
-  .login-form-container form h3{
+  #login-form-container form h3{
     font-size: 3rem;
     color:#444;
     text-transform: uppercase;
     text-align: center;
     padding:1rem 0;
   }
-  .login-form-container form .box{
+  #login-form-container form .box{
     width:100%;
     padding:1rem;
     font-size: 1.7rem;
@@ -483,4 +498,3 @@ ul {
     border:.1rem solid rgba(0,0,0,.3);
     text-transform: none;
   }
-  

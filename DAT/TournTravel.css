@@ -105,7 +105,10 @@ header .navbar a:hover{
 }
 
 header .icons i{
-  color: orange;
+  font-size: 2.5rem;
+  color:#fff;
+  cursor: pointer;
+  margin-right: 2rem;
 }
 
 header .icons i:hover{
@@ -401,7 +404,7 @@ header .search-bar-container label:hover{
 }
 
 .services .box-container .box{
-  flex: 0.1 0.1 3rem;
+  flex: 1 1 30rem;
   border-radius: .5rem;
   padding:1rem;
   text-align: center;

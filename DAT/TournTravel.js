@@ -7,11 +7,11 @@ let menu = document.querySelector('#menu-bar');
 let navbar = document.querySelector('.navbar');
 let videoBtn = document.querySelectorAll('.vid-btn');
 
-/*document.querySelector('.show-form').addEventListener('click', function(e) {
+document.querySelector('.show-form').addEventListener('click', function(e) {
   e.preventDefault(); // Prevent the default link behavior
   document.querySelector('.fas fa-times').style.display = 'none';
   document.querySelector('.register-form').style.display = 'block'; // Show the registration form
-});*/
+});
 const showFormLink = document.querySelector(".show-form");
 const registerForm = document.querySelector(".register-form");
 

@@ -10,13 +10,12 @@
     <link rel="stylesheet" href="./assets/fonts/themify-icons/themify-icons.css">
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <link href="project.js">
+    <link rel="stylesheet" href="project.js">
 
 </head>
 <body>
     
     <div id = "main">
-
         <div id = "header">
             <div class = "header-topbar">
                 <div class="grid-wide">
@@ -39,9 +38,7 @@
                             </div>
 
                             <div class="right-topbar">
-                                <ul class = "header-topbar-container-login">
-                                    <li><a href="#">LOGIN | REGISTER</a></li>
-                                </ul>
+                                <i id="login-btn">LOGIN | SIGNUP</i>
                             </div>
                         </div>
                     </div>
@@ -102,7 +99,52 @@
           </div>
         </div>
 
-            <!-- About section begin -->
+
+
+
+<!-- login form container  -->
+
+<div class="login-form-container">
+
+    <i class="fas fa-times" id="form-close"></i>
+
+    <form action="">
+        <h3>login</h3>
+        <input type="email" class="box" placeholder="Enter your email">
+        <input type="password" class="box" placeholder="Enter your password">
+        <input type="submit" value="login now" class="btn">
+        <input type="checkbox" id="remember">
+        <label for="remember">remember me</label>
+        <p>forget password? <a href="#">click here</a></p>
+
+        <p>don't have and account? <a href="#" class="show-form">register</a></p>
+        <div class="register-form" style="display:none">
+            
+            <form>
+              <!-- Your registration form fields here -->
+              <h3>sign up</h3>
+               <input type="firstname" class="box" placeholder="Enter your firstname">
+               <input type="lastname" class="box" placeholder="Enter your lastname">
+               <input type="email" class="box" placeholder="Enter your email">
+               <input type="password" class="box" placeholder="Enter your password">
+               <input type="submit" value="Register" class="btn">
+               <p>already a remember? <a href="#">log in</a></p>
+            </form>
+            
+        </div>
+       
+    </form>
+
+</div>
+
+
+
+<!-- LOgin form end  -->
+
+
+
+
+<!-- About section begin -->
 
         <div id = "content">
             <div class="content-section">

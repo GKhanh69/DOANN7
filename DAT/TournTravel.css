@@ -105,10 +105,7 @@ header .navbar a:hover{
 }
 
 header .icons i{
-  font-size: 2.5rem;
-  color:#fff;
-  cursor: pointer;
-  margin-right: 2rem;
+  color: orange;
 }
 
 header .icons i:hover{

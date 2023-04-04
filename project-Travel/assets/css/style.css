@@ -76,15 +76,10 @@ ul {
 .right-topbar {
     float: right;
 }
-.header-topbar-container-login li {
-    position: relative;
-    display: inline-block;
-    float: left;
-    text-decoration: none;
-    line-height: 32px;
-    padding: 0px 1px;
-    display: block;
-    font-size: 12px;
+.right-topbar i{
+  color:#fff;
+  cursor: pointer;
+  margin-right: 2rem;
 }
 #nav-container {
     display: inline-block;
@@ -381,7 +376,7 @@ ul {
 #services .box-container .box i{
     padding:1rem;
     font-size: 5rem;
-    color:var(--orange);
+    color:orange;
 }
 #services .box-container .box h3{
     font-size: 2.5rem;
@@ -448,3 +443,7 @@ ul {
     width: 100px;
     background-color: orange;
 }
+
+
+
+ /*================================================================================================================*/

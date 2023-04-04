@@ -446,4 +446,41 @@ ul {
 
 
 
+
  /*================================================================================================================*/
+
+
+
+
+
+
+ 
+
+
+
+ /*================================================================================================================*/
+ .login-form-container form{
+    margin:2rem;
+    padding:1.5rem 2rem;
+    border-radius: .5rem;
+    background:#fff;
+    width:50rem;
+  }
+  
+  .login-form-container form h3{
+    font-size: 3rem;
+    color:#444;
+    text-transform: uppercase;
+    text-align: center;
+    padding:1rem 0;
+  }
+  .login-form-container form .box{
+    width:100%;
+    padding:1rem;
+    font-size: 1.7rem;
+    color:#333;
+    margin:.6rem 0;
+    border:.1rem solid rgba(0,0,0,.3);
+    text-transform: none;
+  }
+  

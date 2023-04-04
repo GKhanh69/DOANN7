@@ -32,11 +32,12 @@ let formBtn = document.querySelector('#login-btn');
 let loginForm = document.querySelector('.login-form-container');
 let formClose = document.querySelector('#form-close');
 
-// document.querySelector('.show-form').addEventListener('click', function(e) {
-//   e.preventDefault(); // Prevent the default link behavior
-//   document.querySelector('.fas fa-times').style.display = 'none';
-//   document.querySelector('.register-form').style.display = 'block'; // Show the registration form
-// });
+
+document.querySelector('.show-form').addEventListener('click', function(e) {
+  e.preventDefault(); // Prevent the default link behavior
+  document.querySelector('.fas fa-times').style.display = 'none';
+  document.querySelector('.register-form').style.display = 'block'; // Show the registration form
+});
 const showFormLink = document.querySelector(".show-form");
 const registerForm = document.querySelector(".register-form");
 

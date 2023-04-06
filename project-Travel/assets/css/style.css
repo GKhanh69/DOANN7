@@ -295,6 +295,11 @@ ul {
     border-radius: 6px;
 }
 
+
+
+
+ /*================================================================================================================*/
+
  .footer{
     background:#333;
  }
@@ -368,10 +373,11 @@ ul {
     gap:1.5rem;
 }
 #services .box-container .box{
-    flex: 1 1 30rem;
+    flex: 1 1 3rem;
     border-radius: .5rem;
     padding:1rem;
     text-align: center;
+    width: 200px;
 }
 #services .box-container .box i{
     padding:1rem;
@@ -379,12 +385,12 @@ ul {
     color:orange;
 }
 #services .box-container .box h3{
-    font-size: 2.5rem;
+    font-size: 2rem;
     color:#333;
 }
   
 #services .box-container .box p{
-    font-size: 1.5rem;
+    font-size: 1rem;
     color:#666;
     padding:1rem 0;
 }

@@ -474,7 +474,7 @@ ul {
     padding-left: 10%;
  }
  #login-form-container form{
-    text-align: center;
+    align-self: center;
     margin:2rem;
     padding:1.5rem 2rem;
     border-radius: .5rem;
@@ -483,7 +483,6 @@ ul {
   }
   
   #login-form-container form h3{
-    font-size: 3rem;
     color:#444;
     text-transform: uppercase;
     text-align: center;
@@ -492,9 +491,35 @@ ul {
   #login-form-container form .box{
     width:100%;
     padding:1rem;
-    font-size: 1.7rem;
     color:#333;
     margin:.6rem 0;
     border:.1rem solid rgba(0,0,0,.3);
     text-transform: none;
+  }
+  #login-form-container form .btn{
+    display: block;
+    width:100%;
+    background-color: orange;
+    border: 1px solid orange;
+    padding:1rem;
+    margin:.6rem 0;
+    color: white;
+  }
+  #login-form-container form .btn:hover{
+    border: 2px solid orange;
+    background-color:wheat;
+    color: orange;
+  }
+  #login-form-container form p{
+    padding:.5rem 0;
+    color:#666;
+  }
+  #login-form-container form p a{
+    color: orange;
+    text-decoration: none;
+  }
+  
+  #login-form-container form p a:hover{
+    color: #333;
+    text-decoration: underline;
   }

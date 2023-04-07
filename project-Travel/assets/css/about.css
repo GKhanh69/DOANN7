@@ -122,6 +122,7 @@
     }
     .content .item{
         display: none;
+        background: none;
     }
     .content .item.active{
         display: block;

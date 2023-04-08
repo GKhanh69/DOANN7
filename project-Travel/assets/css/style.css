@@ -437,6 +437,7 @@ ul {
 }
 #recommend .box-container .box .content .price{
     padding-top: 10px;
+    padding-bottom: 10px;
     color: #333;
 }
 #recommend .box-container .box .content .price span{

@@ -408,6 +408,7 @@ ul {
     display: flex;
     flex-wrap: wrap;
     gap: 2rem;
+    padding-top: 20px;
 }
 #recommend .box-container .box{
     flex:1 1 30rem;

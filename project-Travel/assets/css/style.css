@@ -449,10 +449,13 @@ ul {
     width: 100px;
     background-color: orange;
 }
-
-
-
-
+#content a {
+    text-decoration: none;
+    color: #000000;
+}
+#content i {
+    padding-right: 5px;
+}
  /*================================================================================================================*/
 
 

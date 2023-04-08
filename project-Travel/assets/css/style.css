@@ -338,7 +338,8 @@ ul {
   
  .footer .box-container .box a:hover{
     color:orange;
-    text-decoration: underline;
+    box-shadow: 0 1px orange;
+    transition: 0.4s;
  }
   
  .footer .credit{

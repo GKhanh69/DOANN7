@@ -90,6 +90,10 @@
 }
 
 
+
+
+
+
 .sidebar__tour{
     width: 24%;
 }
@@ -119,8 +123,7 @@
 .form__group__search input{
     padding-right: 15px;
 }
-.form__group__search input,
-.form__group__search select{
+.form__group__search input, .form__group__search select{
     width: calc(100% - 56px);
     height: 56px;
     border: none;
@@ -130,4 +133,31 @@
 }
 .form__group__search select optgroup{
     padding: 5px 0;
+}
+.form-search button{
+    width: 100%;
+    height: 56px;
+    border: none;
+    background-color: orange;
+    color: white;
+}
+.form-search button{
+    width: 100%;
+    height: 56px;
+    border: none;
+    background-color: orange;
+    color: white;
+}
+.form-search button:hover{
+    background-color: #363636;
+    transition:all ease-in-out 0.4s;
+}
+
+
+
+.choose{
+    margin-top: 30px;
+}
+.group__check{
+    margin-bottom: 15px;
 }

@@ -234,16 +234,14 @@ ul {
 
 /* thành phần chung */
 #content .content-section {
-    width: 800px;
+    width: 100%;
     padding: 64px 0;
-    margin-left: auto;
-    margin-right: auto;
 }
 .section-heading {
     font-size: 1.75rem;
     text-align: center;
     color: orange;
-
+    margin-bottom: 30px;
 }
 .section-heading span{
   background:rgba(255, 165, 0,.2);
@@ -263,33 +261,36 @@ ul {
     opacity: 0.6;
 }
 /* ------------------------------ */
-#content .about-text {
+#about{
+    width: 800px;
+}
+#about .about-text {
     margin-top: 25px;
     font-size: 15px;
-    text-align: justify;
+    text-align: center;
     /* độ cao giữa các dòng chữ với nhau */
     line-height: 1.4;
 }
-#content .member-list {
+#about .member-list {
     margin-top: 48px;
 }
-#content .member-item {
+#about .member-item {
     float: left;
     width: calc(100% / 5);
     text-align: center;
 }
-#content .member-item > a {
+#about .member-item > a {
     font-size: 17px;
     font-style: bold;
     text-decoration: none;
     color: #000000;
 }
-#content .member-item > a:hover {
+#about .member-item > a:hover {
     color: #000000;
     box-shadow: 0 3px #004444;
     transition: box-shadow 0.3s;
 }
-#content .member-img {
+#about .member-img {
     width: 150px;
     margin-top: 15px;
     border-radius: 6px;
@@ -338,8 +339,8 @@ ul {
   
  .footer .box-container .box a:hover{
     color:orange;
-    box-shadow: 0 1px orange;
     transition: 0.4s;
+    text-decoration: underline;
  }
   
  .footer .credit{
@@ -372,9 +373,12 @@ ul {
     display: flex;
     flex-wrap: wrap;
     gap:1.5rem;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
 }
 #services .box-container .box{
-    flex: 1 1 3rem;
+    flex: 1 1 15rem;
     border-radius: .5rem;
     padding:1rem;
     text-align: center;
@@ -407,19 +411,21 @@ ul {
 #recommend .box-container{
     display: flex;
     flex-wrap: wrap;
-    gap: 2rem;
-    padding-top: 20px;
+    margin-left: 75px;
+    gap: 1%;
 }
 #recommend .box-container .box{
-    flex:1 1 30rem;
+    width: 31%;
     border-radius: .5rem;
-    overflow: hidden;
+    padding: 0 15px;
+    margin-bottom: 30px;
     box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
 }
 #recommend .box-container .box img{
-    height: 25rem;
+    height: 300px;
     width: 100%;
     object-fit: cover;
+    display: block;
 }
 #recommend .box-container .box .content{
     padding: 2rem;
@@ -445,20 +451,15 @@ ul {
 #recommend .box-container .box .content .price span{
     color:#666;
     font-size: small;
-     text-decoration: line-through;
+    text-decoration: line-through;
 }
 #recommend .box-container .box .content .btn {
     height: 25px;
     width: 100px;
     background-color: orange;
-}
-#content a {
     text-decoration: none;
-    color: #000000;
 }
-#content i {
-    padding-right: 5px;
-}
+
  /*================================================================================================================*/
 
 

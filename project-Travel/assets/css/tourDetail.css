@@ -57,23 +57,9 @@
 .list__tabs:hover, .list__tabs:hover p{
     color: orange;
 }
-.list__tabs.current{
-    background-color: #fff;
-    color: orange;
-    margin-top: -8px;
-    border-color: #fff;
-    transition: all ease-in-out 0.3s;
+.tabs a{
+    text-decoration: none;
 }
-.list__tabs.current p{
-    color: orange;
-}
-.tab-content{
-    display: none;
-}
-.tab-content.current{
-    display: block;
-}
-
 
 
 
@@ -140,6 +126,7 @@
 .list__info__destinations{
     list-style-type: none;
     background-color: #f4f4f4;
+    margin-bottom: 50px;
 }
 .list__info__destinations .list__info{
     display: flex;
@@ -156,4 +143,27 @@
 .list__info__destinations .list__info strong{
     padding-right: 200px;
 }
+/*--------------------   TABS INFORMATION end   ----------------------*/
 
+
+/*--------------------   GALLERY START   ----------------------*/
+.our__gallery p{
+    margin-top: 50PX;
+    font-size: 20px;
+    color: #808285;
+    margin-bottom: 50px;
+}
+.main__our__gallery{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.list__gallery{
+    width: 32%;
+    margin-bottom: 30px;
+}
+.list__gallery img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}

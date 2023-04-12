@@ -91,8 +91,8 @@
 
                 <div class="tab-container">
                     <ul class="tabs">
-                        <li class="list__tabs current" data-tab="date"><i class="fa fa-light fa-file-invoice"></i><p>INFORMATION</p></li>
-                        <li class="list__tabs" data-tab="nameAZ"><i class="fa fa-regular fa-camera"></i><p>GALLERY</p></li>
+                        <a href="#information"><li class="list__tabs current" data-tab="date"><i class="fa fa-light fa-file-invoice"></i><p>INFORMATION</p></li></a>
+                        <a href="#gallery"><li class="list__tabs" data-tab="nameAZ"><i class="fa fa-regular fa-camera"></i><p>GALLERY</p></li></a>
                         <li class="list__tabs" data-tab="reviews"><i class="fa fa-light fa-users"></i><p>REVIEWS</p></li>
                     </ul>
                 </div>
@@ -101,7 +101,7 @@
                 <div class="main__tab">
                     <div id="date" class="tab-content current">
                         <div class="main__tab__content">
-                           <div class="title___information">
+                           <div class="title___information" id="information">
                                 <h3>GAUDI’S CITY</h3>
                                 <div class="price">
                                     <p>$900<span>$850</span></p>
@@ -165,29 +165,35 @@
                                 </li>
                            </ul>
 
-                           <div class="our__gallery">
+
+
+
+
+
+                           <div class="our__gallery" id="gallery">
                                 <h3>FROM OUR GALLERY</h3>
                                 <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, loreendum auctor nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
                                 <div class="main__our__gallery">
-                                    <div class="list__gallery">
-                                        <a href="./assets/image/destination-5.jpg" data-fancybox="gallery"><img src="./assets/image/destination-5.jpg" alt=""></a>
-                                    </div>
-                                    <div class="list__gallery">
-                                        <a href="./assets/image/destination-6.jpg" data-fancybox="gallery"><img src="./assets/image/destination-6.jpg" alt=""></a>
-                                    </div>
-                                    <div class="list__gallery">
-                                        <a href="./assets/image/destination-7.jpg" data-fancybox="gallery"><img src="./assets/image/destination-7.jpg" alt=""></a>
-                                    </div>
+                                    <div class="list__gallery"><img src="assets/img/HUE.jpg"></div>
+                                    <div class="list__gallery"><img src="assets/img/HA.jpg"></div>
+                                    <div class="list__gallery"><img src="assets/img/HG.jpg"></div>
+                                    <div class="list__gallery"><img src="assets/img/MCC.jpg"></div>
+                                    <div class="list__gallery"><img src="assets/img/blog/golden-bridge.jpg"></div>
+                                    <div class="list__gallery"><img src="assets/img/blog/da-nang.jpg"></div>
+                                    <div class="list__gallery"><img src="assets/img/blog/haley.jpg"></div>
+                                    <div class="list__gallery"><img src="assets/img/blog/da-lat.jpg"></div>
+                                    <div class="list__gallery"><img src="assets/img/blog/hcmc.jpg"></div>
+
                                 </div>
                            </div>
 
+
+
+
+
+
                         </div>
                     </div>
-
-
-
-
-
 
                 </div>
                 
@@ -243,7 +249,9 @@
 
 </section>
 <!-- footer section end-->
+<script>
 
+</script>
 
 </body>
 </html>

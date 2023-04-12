@@ -141,11 +141,12 @@ ul {
 
 /*slider*/
 .slideshow-container {
-    max-width: 1000px;
+    max-width: 1200px;
     position:relative;
     margin: auto;
-    margin-top: 110px;
-    background-color: #004444;
+    margin-top: 125px;
+    /* background-color: #004444; */
+    background-image: linear-gradient(to right, #004444, #009292);
     text-align: center;
     z-index: 1;
 }
@@ -243,6 +244,7 @@ ul {
     text-align: center;
     color: orange;
     margin-bottom: 30px;
+    margin-top: 30px;
 }
 .section-heading span{
   background:rgba(255, 165, 0,.2);
@@ -263,7 +265,7 @@ ul {
 }
 /* ------------------------------ */
 #about{
-    width: 1000px;
+    width: 800px;
     margin: 0 auto;
     padding: 20px;
 }
@@ -302,78 +304,6 @@ ul {
     margin-top: 15px;
     border-radius: 6px;
 }
-
-
-
-
- /*================================================================================================================*/
-
- .footer{
-    background:#333;
- }
-  
- .footer .box-container{
-    display: flex;
-    flex-wrap: wrap;
-    gap:1.5rem;
-    padding-left: 10%;
-    padding-right: 10%;
- }
-  
- .footer .box-container .box{
-    flex:1 1 5rem;
- }
-  
- .footer .box-container .box h3{
-    font-size: 1.5rem;
-    padding:.7rem 0;
-    color:#fff;
- }
-  
- .footer .box-container .box p{
-    font-size: 0.75rem;
-    padding:.7rem 0;
-    color:#eee;
- }
-  
- .footer .box-container .box a{
-    display: block;
-    font-size: 0.75rem;
-    padding:0.5rem 0;
-    color:#eee;
-    text-decoration: none;
- }
-  
- .footer .box-container .box a:hover{
-    color:orange;
-    transition: 0.4s;
-    text-decoration: underline;
- }
-  
- .footer .credit{
-    text-align: center;
-    padding:1rem 1rem;
-    margin-top: 1rem;
-    font-size: 1rem;
-    font-weight: normal;
-    color:#fff;
-    border-top: .1rem solid rgba(255,255,255,.2);
- }
-  
- .footer .credit span{
-    color: orange;
- }
-  
- .footer .box-container .box .img{
-    display: flex;
-    border-radius: 50%;
-    height: 50px;
-    width: 50px;
-    object-fit: cover;
-    background-color: red;
- }
-  
-  
 
  /*================================================================================================================*/
 #services .box-container{
@@ -468,6 +398,120 @@ ul {
 }
 
  /*================================================================================================================*/
+/* contact  */
+.home-contact {
+    position: relative;
+}
+/* .contact-background {
+    position:absolute;
+    bottom: -34px;
+    left: 0;
+    width: 100%;
+    height: 104%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+} */
+.contact-container {
+    padding-bottom: 10px;
+}
+.contact-left, .contact-right {
+    padding-left: 4px;
+    padding-right: 4px;
+}
+.contact-right {
+    background-image: linear-gradient(to right, #0a3b47, #1a5c6c);
+}
+.contact-container-form {
+    position: relative;
+    padding: 74px 48px 88px 48px;
+    background: border-box;
+    border-radius: 10px;
+}
+.contact-container-form h2 {
+    font-size: 30px;
+    font-weight: 1000;
+    color: #fff;
+    text-transform:uppercase;
+    letter-spacing: 3px;
+}
+.contact-form {
+    margin-top: 52px;
+}
+.contact-form input {
+    height: 48px;
+    font-size: 17px;
+    font-weight: 400;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #ffffff;
+    border-bottom: solid 2px #e1e1e1;
+}
+.contact-form-name {
+    margin-right: 20px;
+}
+.contact-form-name,
+.contact-form-email {
+    width: calc((100% - 30%) / 2);
+}
+.contact-form-subject {
+    width: 100%;
+    margin-top: 12px;
+}
+.contact-form textarea {
+    height: 126px;
+    width: 100%;
+    border: none;
+    outline: none;
+    margin-top: 19px;
+    background: transparent;
+    font-size: 12px;
+    font-weight: 400;
+    color: #fff;
+    border-bottom: solid 2px #e1e1e1;
+    padding-top: 11px;
+}
+.contact-form-submit-btn {
+    font-size: 13px;
+    font-weight: 700;
+    color: #000000;
+    text-transform: uppercase;
+    line-height: 53px;
+    padding: 0 29px;
+    background: #f0deff;
+    transform: translateY(15px);
+    border: none;
+    outline: none;
+    margin-top: 37px;
+    cursor: pointer;
+    display: inline-block;
+    height: 53px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+.contact-form-submit-btn:hover {
+    background: orange;
+}
+.contact-form span:first-child {
+    margin-left: 10px;
+}
+.contact-form span:nth-child(2) {
+    opacity: .6;
+}
+.contact-form span:last-child {
+    opacity: .4;
+}
+.contact-form span {
+    display: inline-block;
+    vertical-align: middle;
+    width: 5.75px;
+    height: 5.63px;
+    background: #000000;
+    border-radius: 50%;
+    margin-right: 2px;
+    margin-top: -2px;
+}
 
 
 
@@ -479,6 +523,7 @@ ul {
 
 
  /*================================================================================================================*/
+ /* login  */
  #login-form-container{
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
@@ -543,3 +588,72 @@ ul {
     color: #333;
     text-decoration: underline;
   }
+ /*================================================================================================================*/
+/* footer  */
+ .footer{
+    background:#333;
+ }
+  
+ .footer .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.5rem;
+    padding-left: 10%;
+    padding-right: 10%;
+ }
+  
+ .footer .box-container .box{
+    flex:1 1 5rem;
+ }
+  
+ .footer .box-container .box h3{
+    font-size: 1.5rem;
+    padding:.7rem 0;
+    color:#fff;
+ }
+  
+ .footer .box-container .box p{
+    font-size: 0.75rem;
+    padding:.7rem 0;
+    color:#eee;
+ }
+  
+ .footer .box-container .box a{
+    display: block;
+    font-size: 0.75rem;
+    padding:0.5rem 0;
+    color:#eee;
+    text-decoration: none;
+ }
+  
+ .footer .box-container .box a:hover{
+    color:orange;
+    transition: 0.4s;
+    text-decoration: underline;
+ }
+  
+ .footer .credit{
+    text-align: center;
+    padding:1rem 1rem;
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: normal;
+    color:#fff;
+    border-top: .1rem solid rgba(255,255,255,.2);
+ }
+  
+ .footer .credit span{
+    color: orange;
+ }
+  
+ .footer .box-container .box .img{
+    display: flex;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    background-color: red;
+ }
+  
+  
+

@@ -264,10 +264,16 @@ ul {
 /* ------------------------------ */
 #about{
     width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+#about .section-sub-heading {
+    text-align: center;
+    font-size: 30px;
 }
 #about .about-text {
     margin-top: 25px;
-    font-size: 15px;
+    font-size: 20px;
     text-align: center;
     /* độ cao giữa các dòng chữ với nhau */
     line-height: 1.4;
@@ -281,7 +287,7 @@ ul {
     text-align: center;
 }
 #about .member-item > a {
-    font-size: 17px;
+    font-size: 18px;
     font-style: bold;
     text-decoration: none;
     color: #000000;

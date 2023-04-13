@@ -67,10 +67,8 @@
     color: #00bdbb;
     font-weight: 700;
 }
-.rating__tour span{
-    font-size: 20px;
-    color: #999999;
-    line-height: 27px;
+.rating__tour .stars{
+    color: orange;
 }
 .rating__tour p{
     font-size: 20px;

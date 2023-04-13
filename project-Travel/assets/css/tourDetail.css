@@ -143,6 +143,9 @@
 .list__info__destinations .list__info strong{
     padding-right: 200px;
 }
+.list__info ul{
+    list-style-type: none;
+}
 /*--------------------   TABS INFORMATION end   ----------------------*/
 
 
@@ -166,4 +169,61 @@
     width: 100%;
     height: 300px;
     object-fit: cover;
+}
+/*--------------------   GALLERY end   ----------------------*/
+
+
+/*--------------------   REVIEW START   ----------------------*/
+.opening{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.op-text {
+    margin-bottom: 30px;
+    color: #808285;
+}
+.rating{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+}
+.stars{
+    width: 40%;
+    display: flex;
+    gap: 35px;
+    align-items: center;
+    background-color: #ebebeb;
+    height: 200px;
+    padding-left: 8px;
+}
+.stars i{
+    font-size: xxx-large;
+    color: orange;
+}
+.standard{
+    width: 55%;
+    row-gap: 2%;
+}
+.stand{
+    background-color: #ebebeb;
+    height: 20%;
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+.stand-star{
+    color: orange;
+}
+
+
+
+
+.comment{
+}
+.comment .cmt{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-bottom: 1px solid #ebebeb;
+}
+.comment .cmt p{
+    font-weight: bold;
 }

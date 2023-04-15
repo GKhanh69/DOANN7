@@ -28,7 +28,6 @@
 
 
 //login form
-
 const showFormLink = document.querySelector(".show-form");
 const registerForm = document.querySelector(".register-form");
 const loginForm = document.getElementById('login-form-container');
@@ -46,3 +45,27 @@ formClose.addEventListener('click', () =>{
     loginForm.classList.remove('active');
 });
 
+function Loginconfirm(){
+  var lmail = document.getElementById('mail');
+  var lpassword = document.getElementById('password');
+  
+  alert("ban da dang nhap thanh cong");
+}
+
+function loginformwindowclick(){
+  var modal = document.getElementById('login-form-container');
+  window.onclick = function(event){
+    if(event.target==modal){
+        modal.style.display = "none";
+    }
+}
+}
+
+function signinformwindowclick(){
+  var modal = document.getElementById('register-form-container');
+  window.onclick = function(event){
+    if(event.target==modal){
+        modal.style.display = "none";
+    }
+}
+}

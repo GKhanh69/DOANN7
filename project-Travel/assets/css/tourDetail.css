@@ -64,6 +64,15 @@
 
 
 
+
+#tour-code{
+    color: rgb(38, 164, 218);
+    text-decoration: underline;
+}
+
+
+
+
 /*--------------------   TABS INFORMATION START   ----------------------*/
 .title___information h3{
     display: inline-block;
@@ -187,24 +196,12 @@
     flex-wrap: wrap;
     gap: 5%;
 }
-.stars{
-    width: 40%;
-    display: flex;
-    gap: 35px;
-    align-items: center;
-    background-color: #ebebeb;
-    height: 200px;
-    padding-left: 8px;
-}
-.stars i{
-    font-size: xxx-large;
-    color: orange;
-}
 .standard{
-    width: 55%;
+    width: 100%;
     row-gap: 2%;
 }
 .stand{
+    border-bottom: 2px solid white;
     background-color: #ebebeb;
     height: 20%;
     display: grid;

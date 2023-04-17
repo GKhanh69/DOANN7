@@ -73,6 +73,9 @@
 
 
 
+
+
+
 /*--------------------   TABS INFORMATION START   ----------------------*/
 .title___information h3{
     display: inline-block;
@@ -210,6 +213,10 @@
 .stand-star{
     color: orange;
 }
+/*--------------------   REVIEW end   ----------------------*/
+
+/*--------------------   comment START   ----------------------*/
+
 
 
 
@@ -223,4 +230,63 @@
 }
 .comment .cmt p{
     font-weight: bold;
+}
+
+/*--------------------   comment end   ----------------------*/
+
+/*--------------------   sibebar START   ----------------------*/
+
+
+.sidebar__book__tour{
+    background-color: #f9f9f9;
+    padding: 30px;
+}
+.sidebar__book__tour h5{
+    font-size: 15px;
+    color: #363636;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.sidebar__book__tour .row{
+    margin: 0;
+}
+.list__form{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+.icon__form i{
+    color: #bbb;
+}
+.list__form input{
+    font-size: 12px;
+    color: #808285;
+    padding: 20px;
+    border: none;
+    outline: none;
+    border-radius: 0;
+}
+.list__form textarea{
+    width: 100%;
+    font-size: 12px;
+    color: #808285;
+    padding: 20px 0;
+    border: none;
+    outline: none;
+    border-radius: 0;
+}
+.btn-book-tour button{
+    width: 100%;
+    padding: 15px 10px;
+    background-color: orange;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    border-radius: 0;
+    cursor: pointer;
 }

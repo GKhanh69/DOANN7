@@ -121,14 +121,7 @@ textarea{
 		height: 200px;
 	}
 }
-/* .btn{
-	color: white;
-	height: 50px;
-	width: 200px;
-	background-color: orange;
-	border: 0;
-} */
-/* @charset "utf-8"; */
+
 /* CSS Document */
 
 /******************************
@@ -382,15 +375,6 @@ section
 	opacity: 0;
 	height: 0px;
 }
-.phone
-{
-	display: inline-block;
-	margin-right: 36px;
-	line-height: 36px;
-	font-size: 10px;
-	font-weight: 600;
-	color: #FFFFFF;
-}
 ul  {
 	display: block;
     list-style-type: disc;
@@ -501,14 +485,6 @@ a:-webkit-any-link {
 	-o-transform: none;
 	transform: none;
 }
-/* .logo a
-{
-	font-family: 'Open Sans', sans-serif;
-	font-size: 30px;
-	color: #9f9fb3;
-	font-weight: 800;
-	text-transform: uppercase;
-} */
 
 /*********************************
 5. Contact Form Section
@@ -517,14 +493,6 @@ a:-webkit-any-link {
 .contact_form_section
 {
 	padding-top: 105px;
-}
-.contact_form_container
-{
-	padding-top: 74px;
-	padding-left: 98px;
-	padding-right: 98px;
-	padding-bottom: 88px;
-	background: linear-gradient(to top right, #fa9e1b, #8d4fff);
 }
 .contact_title
 {
@@ -549,20 +517,6 @@ a:-webkit-any-link {
 	color: #FFFFFF;
 	border-bottom: solid 2px #e1e1e1;
 }
-.contact_form_name
-{
-	width: calc((100% - 30px) / 2);
-	margin-right: 30px;
-}
-.contact_form_email
-{
-	width: calc((100% - 30px) / 2);
-}
-.contact_form_subject
-{
-	width: 100%;
-	margin-top: 11px;
-}
 .about_info .contact_info_list {
     margin-top: 0px;
 }
@@ -584,26 +538,7 @@ ul {
     display: flex;
     align-items: center;
 }
-/* .contact__info__icon img {
-    max-width: 20px;
-    display: block;
-    cursor: pointer;
-} */
 
-.contact_form_message
-{
-	height: 126px;
-	width: 100%;
-	border: none;
-	outline: none;
-	margin-top: 19px;
-	background: transparent;
-	font-size: 12px;
-	font-weight: 400;
-	color: #FFFFFF;
-	border-bottom: solid 2px #e1e1e1;
-	padding-top: 11px;
-}
 .form_submit_button
 {
 	font-size: 13px;

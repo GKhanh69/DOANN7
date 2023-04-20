@@ -50,3 +50,39 @@ body {
 img{
     border-radius: 2%;
 }
+.banner1 {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.banner-txt1 {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.blog-detail {
+    display: flex;
+    margin-left: 250px;
+    margin-right: 270px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    justify-content: space-between;
+    text-align: justify;
+}
+.blog-detail-content {
+    flex: 4;
+    padding-right: 30px;
+}
+.blog-detail-contents {
+    display: flex;
+}
+.blog-detail-content1 {
+    flex: 1;
+}
+.blog-detail-items {
+    flex: 2;
+}
+.table-of-content {
+    border: 1px solid black;
+}

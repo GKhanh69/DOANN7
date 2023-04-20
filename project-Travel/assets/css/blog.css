@@ -38,7 +38,7 @@ body {
 }
 .row {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 }
 .blog-items {
     width: 50%;

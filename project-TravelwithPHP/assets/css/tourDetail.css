@@ -1,0 +1,292 @@
+.tour__detail{
+    margin-top: -78px;
+    margin-bottom: 30px;
+    position: relative;
+}
+.main__tour__detail{
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+}
+.main__tour__detail__content{
+    width: 74%;
+}
+.sidebar__book__tour{
+    width: 24%;
+}
+
+
+
+
+
+
+
+.tab-container{
+    margin-bottom: 30px;
+}
+.tabs{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+.list__tabs{
+    width: 130px;
+    padding: 15px 0px;
+    font-size: 14px;
+    color: #808285;
+    background-color: #f4f4f4;
+    cursor: pointer;
+    text-align: center;
+}
+.list__tabs i{
+    font-size: 18px;
+}
+.list__tabs p{
+    font-size: 12px;
+    font-weight: 600;
+    color: #808285;
+    margin-top: 8px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+.list__tabs:not(:last-child){
+    border-right: 1px solid #d7d7d7;
+}
+.list__tabs:hover, .list__tabs:hover p{
+    color: orange;
+}
+.tabs a{
+    text-decoration: none;
+}
+
+
+
+
+
+#tour-code{
+    color: rgb(38, 164, 218);
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+/*--------------------   TABS INFORMATION START   ----------------------*/
+.title___information h3{
+    display: inline-block;
+    font-size: 30px;
+    color: #363636;
+    font-weight: 700;
+    margin-right: 22px;
+}
+.title___information .price{
+    display: inline-flex;
+    align-items: center;
+}
+.title___information .price p{
+    font-size: 20px;
+    color: #363636;
+    font-weight: 700;
+    margin-right: 5px;
+    margin-bottom: 0;
+}
+.title___information .price p span{
+    font-size: 26px;
+    color: #00bdbb;
+    font-weight: 700;
+}
+.title___information .price .person{
+    color: #808285;
+}
+
+
+
+
+
+
+.info__intro{
+    font-size: 20px;
+    color: #808285;
+    margin-top: 30px;
+}
+
+
+
+
+
+.list__info__tour{
+    list-style-type: none;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding: 18px 20px;
+    margin: 30px 0;
+}
+.list__info__tour li{
+    font-size: 20px;
+    color: #808285;
+}
+
+
+
+.list__info__destinations{
+    list-style-type: none;
+    background-color: #f4f4f4;
+    margin-bottom: 50px;
+}
+.list__info__destinations .list__info{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 18px 0;
+    border-bottom: 1px solid #ebebeb;
+}
+.list__info__destinations .list__info:hover{
+    background-color: #f9f9f9;
+}
+.list__info__destinations .list__info:hover strong{
+    color: orange;
+}
+.list__info__destinations .list__info strong{
+    padding-right: 200px;
+}
+.list__info ul{
+    list-style-type: none;
+}
+/*--------------------   TABS INFORMATION end   ----------------------*/
+
+
+/*--------------------   GALLERY START   ----------------------*/
+.our__gallery p{
+    margin-top: 50PX;
+    font-size: 20px;
+    color: #808285;
+    margin-bottom: 50px;
+}
+.main__our__gallery{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.list__gallery{
+    width: 32%;
+    margin-bottom: 30px;
+}
+.list__gallery img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+/*--------------------   GALLERY end   ----------------------*/
+
+
+/*--------------------   REVIEW START   ----------------------*/
+.opening{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.op-text {
+    margin-bottom: 30px;
+    color: #808285;
+}
+.rating{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+}
+.standard{
+    width: 100%;
+    row-gap: 2%;
+}
+.stand{
+    border-bottom: 2px solid white;
+    background-color: #ebebeb;
+    height: 20%;
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+.stand-star{
+    color: orange;
+}
+/*--------------------   REVIEW end   ----------------------*/
+
+/*--------------------   comment START   ----------------------*/
+
+
+
+
+
+.comment{
+}
+.comment .cmt{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-bottom: 1px solid #ebebeb;
+}
+.comment .cmt p{
+    font-weight: bold;
+}
+
+/*--------------------   comment end   ----------------------*/
+
+/*--------------------   sibebar START   ----------------------*/
+
+
+.sidebar__book__tour{
+    background-color: #f9f9f9;
+    padding: 30px;
+}
+.sidebar__book__tour h5{
+    font-size: 15px;
+    color: #363636;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.sidebar__book__tour .row{
+    margin: 0;
+}
+.list__form{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+.icon__form i{
+    color: #bbb;
+}
+.list__form input{
+    font-size: 12px;
+    color: #808285;
+    padding: 20px;
+    border: none;
+    outline: none;
+    border-radius: 0;
+}
+.list__form textarea{
+    width: 100%;
+    font-size: 12px;
+    color: #808285;
+    padding: 20px 0;
+    border: none;
+    outline: none;
+    border-radius: 0;
+}
+.btn-book-tour button{
+    width: 100%;
+    padding: 15px 10px;
+    background-color: orange;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    border-radius: 0;
+    cursor: pointer;
+}

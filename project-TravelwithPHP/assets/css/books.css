@@ -1,0 +1,167 @@
+.banner{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.banner img{
+    width: 100%;
+    height: 550px;
+    object-fit: contain;
+}
+.banner-txt {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+
+
+/*=================================================================================================*/
+.Main{
+    display: flex;
+    flex-wrap: wrap;
+}
+.main-tour{
+    width: 74%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+}
+.list__tour{
+    width: 33.333%;
+    padding: 0 15px;
+    margin-bottom: 30px;
+}
+.list__tour img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+}
+.tour__des{
+    padding: 20px;
+    border: 1px solid #ebebeb;
+    border-top: none;
+    border-bottom: none;
+}
+.tour__code{
+    padding: 20px;
+}
+.tour__code p{
+    color: #363636;
+}
+.tour__title{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+} 
+.tour__title a{
+    font-size: 20px;
+    color: #363636;
+    font-weight: 700;
+    text-decoration: none;
+}
+.tour__title a:hover{
+    color: orange;
+}
+.tour__title span{
+    font-family: "Poppins";
+    font-size: 20px;
+    color: #00bdbb;
+    font-weight: 700;
+}
+.rating__tour .stars{
+    color: orange;
+}
+.rating__tour p{
+    font-size: 20px;
+    color: #808285;
+    line-height: 27px;
+    margin-top: 30px;
+}
+.tour__info{
+    display: flex;
+    gap: 30px;
+    padding: 15px 30px;
+    background-color: orange;
+}
+.tour__info p{
+    font-size: 15px;
+    color: #fff;
+}
+
+
+
+
+
+
+.sidebar__tour{
+    width: 24%;
+}
+.find__destinations{
+    padding: 30px;
+    background-color: #f9f9f9;
+}
+.find__destinations h4{
+    font-size: 20px;
+    color: #363636;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.form__group__search{
+    display: flex;
+    background-color: #fff;
+    margin-bottom: 13px;
+}
+.form__group__search i{
+    height: 56px;
+    width: 56px;
+    text-align: center;
+    line-height: 56px;
+    color: #bbb;
+}
+.form__group__search input{
+    padding-right: 15px;
+}
+.form__group__search input, .form__group__search select{
+    width: calc(100% - 56px);
+    height: 56px;
+    border: none;
+    font-size: 12px;
+    color: #808285;
+    outline: none;
+}
+.form__group__search select optgroup{
+    padding: 5px 0;
+}
+.form-search button{
+    width: 100%;
+    height: 56px;
+    border: none;
+    background-color: orange;
+    color: white;
+}
+.form-search button{
+    width: 100%;
+    height: 56px;
+    border: none;
+    background-color: orange;
+    color: white;
+}
+.form-search button:hover{
+    background-color: #363636;
+    transition:all ease-in-out 0.4s;
+}
+
+
+
+.choose{
+    margin-top: 30px;
+}
+.group__check{
+    margin-bottom: 15px;
+}

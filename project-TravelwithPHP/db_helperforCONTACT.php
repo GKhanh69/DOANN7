@@ -28,6 +28,7 @@ else{
     $sql = "INSERT into tb_contact (Name,Email,Subject,Message) values('$Name','$Email','$Subject','$Message')";
     mysqli_query($conn,$sql);
     header('location: index.php');
+    mysqli_close($conn);
     exit();
 }
 ?>

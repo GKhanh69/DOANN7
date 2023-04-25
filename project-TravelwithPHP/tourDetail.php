@@ -2,6 +2,7 @@
     include 'header.php';
     include 'db_helperforBOOKS.php';
 
+
     //Tạo 1 biến tourrID chứa Mã tour trên thanh chứa link (thanh URL) dc tạo từ trang books.php
     $tourId = $_GET['tid'];
 
@@ -45,7 +46,7 @@
                 </div>
 
 
-                <p id="tour-code">Tour code: <span id="code"><?php echo $tour['MaTour']?></span></p>
+                <p id="tour-code">Tour code: <span name="MaTour" id="code"><?php echo $tour['MaTour']?></span></p>
 
                 <div class="main__tab">
                     <div id="date" class="tab-content current">
@@ -74,19 +75,19 @@
                                 </li>
                                 <li class="list__info">
                                     <strong>Departure</strong>
-                                    <p>Post Office / City Park</p>
+                                    <p>Trụ sở F5 TRAVEL tại TPHCM</p>
                                 </li>
                                 <li class="list__info">
                                     <strong>Departure Time</strong>
-                                    <p>Please arrive by 9:15 AM for a prompt departure at 9:30 AM.</p>
+                                    <p> 9:30 AM.</p>
                                 </li>
                                 <li class="list__info">
                                     <strong>Return Time</strong>
-                                    <p>Approximately 5:30 PM.</p>
+                                    <p> 5:30 PM.</p>
                                 </li>
                                 <li class="list__info">
                                     <strong>Dress Code</strong>
-                                    <p>Casual, comfortable athletic clothing, hiking shoes, hat and light jacket.</p>
+                                    <p>Tự do</p>
                                 </li>
                                 <li class="list__info">
                                     <strong>Included</strong>
@@ -251,46 +252,47 @@
         </div>
         <div class="sidebar__book__tour">
             <h5>BOOK THIS TOUR</h5>
-            <form action="" class="form-book-tour">
+            <form action="db_helperforBOOKS.php" class="form-book-tour">
                 <div class="row1">
                     <div class="col-12 list__form">
                         <div class="icon__form">
                             <i class="fa fa-solid fa-pen"></i>
                         </div>
-                        <input type="text" placeholder="Name *">
+                        <input name="Name" type="text" placeholder="Name *">
                     </div>
                     <div class="col-12 list__form">
                         <div class="icon__form">
                             <i class="fa fa-solid fa-envelope"></i>
                         </div>
-                        <input type="text" placeholder="Email *">
+                        <input name="Email" type="text" placeholder="Email *">
                     </div>
                     <div class="col-12 list__form">
                         <div class="icon__form">
                             <i class="fa fa-solid fa-phone"></i>
                         </div>
-                        <input type="text" placeholder="Phone">
+                        <input name="Phone" type="text" placeholder="Phone">
                     </div>
                     <div class="col-12 list__form">
                         <div class="icon__form">
                             <i class="fa fa-regular fa-calendar"></i>
                         </div>
-                        <input type="text" placeholder="Date *">
+                        <input name="Date" type="text" placeholder="Date *">
                     </div>
                     <div class="col-12 list__form">
                         <div class="icon__form">
                             <i class="fa fa-regular fa-calendar"></i>
                         </div>
-                        <input type="number" placeholder="Number of ticket *" min="1">
+                        <input name="NumberoTicket" type="number" placeholder="Number of ticket *" min="1">
                     </div>
                     <div class="col-12 list__form">
-                        <textarea name="" id="" cols="30" rows="3" placeholder="Message"></textarea>
+                        <textarea name="Message" id="" cols="30" rows="3" placeholder="Message"></textarea>
                     </div>
                     
                 </div>
                 <div class="btn-book-tour">
-                    <button>Book now</button>
+                    <input type="submit" value="click" name="submit"> 
                 </div>
+            
             </form>
         </div>
     </div>
@@ -302,5 +304,5 @@
 
 
 <?php
-    include 'header.php';
+    include 'footer.php';
 ?>

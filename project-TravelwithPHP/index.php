@@ -124,7 +124,6 @@ include 'header.php';
                     <i class="fas fa-star"></i>
                     <i class="far fa-star"></i>
                 </div>
-                <div class="price"> $850.00 <span>$900.00</span> </div>
                 <a href="books.php" class="btn">Book now</a>
             </div>
         </div>
@@ -141,7 +140,6 @@ include 'header.php';
                     <i class="fas fa-star"></i>
                     <i class="far fa-star"></i>
                 </div>
-                <div class="price"> $850.00 <span>$900.00</span> </div>
                 <a href="books.php" class="btn">Book now</a>
             </div>
         </div>
@@ -158,7 +156,6 @@ include 'header.php';
                     <i class="fas fa-star"></i>
                     <i class="far fa-star"></i>
                 </div>
-                <div class="price"> $850.00 <span>$900.00</span> </div>
                 <a href="books.php" class="btn">Book now</a>
             </div>
         </div>
@@ -175,7 +172,6 @@ include 'header.php';
                     <i class="fas fa-star"></i>
                     <i class="far fa-star"></i>
                 </div>
-                <div class="price"> $850.00 <span>$900.00</span> </div>
                 <a href="books.php" class="btn">Book now</a>
             </div>
         </div>
@@ -192,7 +188,6 @@ include 'header.php';
                     <i class="fas fa-star"></i>
                     <i class="far fa-star"></i>
                 </div>
-                <div class="price"> $850.00 <span>$900.00</span> </div>
                 <a href="books.php" class="btn">Book now</a>
             </div>
         </div>
@@ -209,7 +204,6 @@ include 'header.php';
                     <i class="fas fa-star"></i>
                     <i class="far fa-star"></i>
                 </div>
-                <div class="price"> $850.00 <span>$900.00</span> </div>
                 <a href="books.php" class="btn">Book now</a>
             </div>
         </div>

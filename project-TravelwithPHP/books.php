@@ -51,7 +51,7 @@
                         </div>
                         <div class="tour__title">
                             <a href="tourDetail.php?tid=<?php  echo $tour['MaTour']?>"><?php echo $tour['DiaDiem']; ?></a>
-                            <span>$<?php echo $tour['GiaTien']; ?></span>
+                            <span>Vnd <?php echo $tour['GiaTien']; ?></span>
                         </div>
                         <div class="rating__tour">
                             <div class="stars">

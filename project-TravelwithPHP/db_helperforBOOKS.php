@@ -53,4 +53,15 @@ function getTour($tourId) {
 }
 
 
+
+
+
+
+function bookTour($MaTour,$Name,$Email,$Phone,$Date,$NumberTicket,$Message,$Total){
+    $conn = getCon();
+    $sql = "INSERT INTO `tb_booktour` (`MaTour`, `Name`, `Email`, `Phone`, `Date`, `NumberTicket`, `Message`, `Total`) VALUES ('$MaTour', '$Name', '$Email', '$Phone', '$Date', '$NumberTicket', '$Message', '$Total')";
+    $conn->query($sql);
+    closeCon($conn);
+}
+
 ?>

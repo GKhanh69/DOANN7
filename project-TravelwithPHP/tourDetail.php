@@ -252,8 +252,11 @@
         </div>
         <div class="sidebar__book__tour">
             <h5>BOOK THIS TOUR</h5>
-            <form action="db_helperforBOOKS.php" class="form-book-tour">
+            <form action="dobooking.php" class="form-book-tour" method="post">             
                 <div class="row1">
+                    <div class="col-12 list__form">
+                        <input name="Tourid" type="text" placeholder="<?php echo $tourId ?>" value="<?php echo $tourId ?>"  readonly>
+                    </div>
                     <div class="col-12 list__form">
                         <div class="icon__form">
                             <i class="fa fa-solid fa-pen"></i>
@@ -287,7 +290,6 @@
                     <div class="col-12 list__form">
                         <textarea name="Message" id="" cols="30" rows="3" placeholder="Message"></textarea>
                     </div>
-                    
                 </div>
                 <div class="btn-book-tour">
                     <input type="submit" value="click" name="submit"> 

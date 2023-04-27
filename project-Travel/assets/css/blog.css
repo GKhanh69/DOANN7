@@ -229,3 +229,10 @@ a {
 a:hover {
     color: orange;
 }
+.items-list a {
+    text-decoration: none;
+    color: gray;
+}
+.items-list a:hover {
+    color: black;
+}

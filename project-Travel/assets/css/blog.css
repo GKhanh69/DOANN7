@@ -222,3 +222,10 @@ img{
     border: 1px solid black;
     background-color: whitesmoke;
 }
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: orange;
+}

@@ -49,14 +49,21 @@ session_start();
                             </div>
 
                             <div class="right-topbar">
-                                <b><a href="login.php">
+                                <b>
                                     <?php
-                                        if(!isset($_SESSION['email'])) echo "LOGIN | SIGN UP";
+                                        if(!isset($_SESSION['email'])){ 
+                                            echo '<a href="';
+                                            echo 'login.php">';
+                                            echo "LOGIN | SIGN UP";
+                                        }
                                         else {
+                                            echo '<a href="';
+                                            echo 'user.php">';
                                             echo $_SESSION['fname'] . $_SESSION['lname'];
                                         }
                                     ?>
-                                </a> </b>
+                                    </a> 
+                                </b>
                             </div>
                         </div>
                     </div>

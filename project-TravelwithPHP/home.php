@@ -9,7 +9,7 @@ if (isset($_SESSION['lname']) && isset($_SESSION['fname'])) {
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-     <h1>Hello, <?php echo $_SESSION['lname']; ?></h1>
+     <h1>Hello, <?php echo $_SESSION['fname']." ".$_SESSION['lname']; ?></h1>
      <a href="index.php">Continue to page</a>
 </body>
 </html>

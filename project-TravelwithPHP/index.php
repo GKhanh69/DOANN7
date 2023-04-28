@@ -296,7 +296,12 @@ include 'header.php';
                                     <input name="Email" type="text" placeholder="E-mail" class="contact-form-email">
                                     <input name="Subject" type="text" placeholder="Subject" class="contact-form-subject">
                                     <textarea name="Message" id cols="30" rows="10" placeholder="Message" style="font-size: 17px;"></textarea>
-                                    <button class="contact-form-submit-btn" type="submit">
+<script>
+function clickonContact() {
+  alert("Thank for your contact");
+}
+</script>
+                                    <button class="contact-form-submit-btn" type="submit" onclick = "clickonContact()">
                                         SEND MESSAGE
                                         <span></span>
                                         <span></span>

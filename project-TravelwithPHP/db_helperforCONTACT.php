@@ -24,6 +24,8 @@ else if(empty($Message)){
     exit();
 }
 
+
+
 else{
     $sql = "INSERT into tb_contact (Name,Email,Subject,Message) values('$Name','$Email','$Subject','$Message')";
     mysqli_query($conn,$sql);

@@ -1,3 +1,17 @@
+<?php
+include 'db_helperDATABASE.php';
+
+
+//Tạo 1 mảng admins chứa các admin trong csdl
+$admins = getAdmins();
+
+
+//test du lieu
+// print("<pre>");
+// print_r($admins);
+// die();
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -126,66 +140,26 @@
 							</tr>
 						</thead>
 						<tbody>
+							<?php
+								foreach($admins as $admin) {
+							?>
+
 							<tr>
 								<td>
 									<img src="img/people.png">
-									<p>Gia Khanh</p>
+									<p><?php echo $admin['admin_name'] ?></p>
 								</td>
-								<td>giakhanh@gmail.com</td>
-								<td>0797278779</td>
+								<td><?php echo $admin['Email'] ?></td>
+								<td><?php echo $admin['Phone'] ?></td>
 								<td>
 									<span class="update edit">Edit</span>
 									<span class="update delete">Delete</span>
 								</td>
 							</tr>
-							<tr>
-								<td>
-									<img src="img/people.png">
-									<p>Nha Triet</p>
-								</td>
-								<td>nhatriet@gmail.com</td>
-								<td>0797278779</td>
-								<td>
-									<span class="update edit">Edit</span>
-									<span class="update delete">Delete</span>
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<img src="img/people.png">
-									<p>Ngoc Tran</p>
-								</td>
-								<td>ngoctran@gmail.com</td>
-								<td>0797278779</td>
-								<td>
-									<span class="update edit">Edit</span>
-									<span class="update delete">Delete</span>
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<img src="img/people.png">
-									<p>Tu Quyen</p>
-								</td>
-								<td>tuquyen@gmail.com</td>
-								<td>0797278779</td>
-								<td>
-									<span class="update edit">Edit</span>
-									<span class="update delete">Delete</span>
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<img src="img/people.png">
-									<p>Thanh Dat</p>
-								</td>
-								<td>thanhdat@gmail.com</td>
-								<td>0797278779</td>
-								<td>
-									<span class="update edit">Edit</span>
-									<span class="update delete">Delete</span>
-								</td>
-							</tr>
+							
+							<?php
+								}
+							?>
 						</tbody>
 					</table>
 				</div>

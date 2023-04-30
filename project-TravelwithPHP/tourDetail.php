@@ -279,7 +279,7 @@
                         <div class="icon__form">
                             <i class="fa fa-regular fa-calendar"></i>
                         </div>
-                        <input name="Date" type="text" placeholder="Date *">
+                        <input name="Date" type="text" placeholder="Date * (yyyy/mm/dd)">
                     </div>
                     <div class="col-12 list__form">
                         <div class="icon__form">
@@ -290,9 +290,12 @@
                     <div class="col-12 list__form">
                         <textarea name="Message" id="" cols="30" rows="3" placeholder="Message"></textarea>
                     </div>
+                    <div class="col-12 list__form" >
+                        <input name="Money" type="text" value = "<?php echo $tour['GiaTien'] ?>" readonly>
+                    </div>
                 </div>
                 <div class="btn-book-tour">
-                    <input type="submit" value="click" name="submit"> 
+                    <input type="submit" value="click" name="submit" onclick="clickonBook()"> 
                 </div>
             
             </form>
@@ -301,6 +304,11 @@
 </div>
 
 
+<script>
+    function clickonBook(){
+        alert("Thank for using our sevices");
+    }
+</script>
 
 <!-- Detail section end-->
 

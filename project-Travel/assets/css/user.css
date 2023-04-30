@@ -1,0 +1,195 @@
+body {
+    font-family: 'Arial';
+    background-color: whitesmoke;
+}
+.user {
+    display: flex;
+    margin-left: 250px;
+    margin-right: 270px;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    justify-content: space-between;
+    text-align: left;
+}
+.user-aside {
+    flex: 1;
+}
+.user-main {
+    flex: 4;
+    text-align: left;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 30px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.user-panel {
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+}
+.user-panel img {
+    border-radius: 50%;
+}
+.user-img {
+    padding-top: 20px;
+    padding-bottom: 10%;
+}
+.user-name {
+    padding-bottom: 20px;
+}
+.user-router {
+    margin-top: 30px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.list-1 {
+    width: 100%;
+    list-style: none;
+    overflow: hidden;
+    height: 550px;
+}
+.list-1 a {
+    width: 100%;
+    color: black;
+    text-decoration: none;
+    display: inline-flex;
+    padding-top: 20px;
+    padding-bottom: 20px;  
+    transition: linear 0.2s;
+}
+.list-1 a:hover {
+    color: orange;
+}
+.list-1 i {
+    margin-right: 20px;
+}
+.list-2 {
+    width: 100%;
+    list-style: none;
+    overflow: hidden;
+}
+.list-2 a {
+    width: 100%;
+    color: black;
+    text-decoration: none;
+    display: inline-flex;
+    padding-top: 20px;
+    padding-bottom: 20px;  
+    transition: linear 0.2s;
+}
+.list-2 a:hover {
+    color: orange;
+}
+.list-2 i {
+    margin-right: 20px;
+}
+.form-control {
+    display: block;
+    width: 50%;
+    padding: 6px 12px;
+    font-size: 21px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+.form-control:focus {
+    border-color: #FFA500;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(255, 165, 0, .6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(255, 165, 0, .6);
+}
+.textbox {
+    display: flex;
+    padding-top: 30px;
+    margin-right: 12%;
+    margin-left: 12%;
+}
+.textbox label {
+    flex: 1;
+    padding-top: 12px;
+}
+.textbox input {
+    flex: 4;
+    height: 50px;
+}
+.textbox textarea {
+    flex: 4;
+    font-family: 'Arial';
+}
+.list-button {
+    display: flex;
+    padding-top: 30px;
+    margin-right: 12%;
+    margin-left: 12%;
+    justify-content: center;
+    text-align: center;
+}
+.list-button a {
+    text-decoration: none;
+    color: white;
+    padding-top: 6px;
+    height: 40px;
+    border-radius: 10px;
+    transition: all 0.2s;
+}
+.button-text {
+    font-size: 18px;
+}
+.button-facebook {
+    flex: 1;
+    background-color: #3B5998;
+    margin-right: 50px;
+}
+a.button-facebook:hover {
+    background-color: #2A4887;
+}
+.button-google {
+    flex: 1;
+    background-color: #DB402C;
+    margin-right: 25px;
+}
+a.button-google:hover {
+    background-color: #CA3F0B;
+}
+.button-twitter {
+    flex: 1;
+    background-color: #55ACEE;
+    margin-left: 25px;
+}
+a.button-twitter:hover {
+    background-color: #449BDD;
+}
+.button {
+    padding-top: 50px;
+}
+.button a {
+    text-decoration: none;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    padding-top: 12px;
+    border-radius: 10px;
+    font-size: 21px;
+}
+.button-change {
+    margin-right: 12%;
+    height: 50px;
+    width: 200px;
+    float: right;   
+    background-color: #1F883D; 
+}
+a.button-change:hover {
+    background-color: #0E772C;
+}

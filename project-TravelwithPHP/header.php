@@ -16,6 +16,7 @@ session_start();
     <link rel="stylesheet" href="./assets/fonts/themify-icons/themify-icons.css">
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.4.0/css/all.css">
     <link rel="stylesheet" href="project.js">
 	<link rel="stylesheet" type="text/css" href="./assets/css/contact.css">
 	<link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">

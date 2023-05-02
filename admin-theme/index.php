@@ -1,3 +1,17 @@
+<?php
+include 'db_helperDATABASE.php';
+
+
+//Tạo 1 mảng user chứa các user trong csdl
+$users = getUser();
+
+
+//test du lieu
+// print("<pre>");
+// print_r($users);
+// die();
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -144,72 +158,30 @@
 						<thead>
 							<tr>
 								<th>User</th>
-								<th>Date</th>
+								<th>Email</th>
 								<th>Status</th>
 								<th>Update</th>
 							</tr>
 						</thead>
 						<tbody>
+							<?php 
+								foreach($users as $user){
+							?>
 							<tr>
 								<td>
 									<img src="img/people.png">
-									<p>ABC</p>
+									<p><?php echo $user['FName'];echo $user['LName'] ?></p>
 								</td>
-								<td>01-10-2017</td>
+								<td><?php echo $user['EMail'] ?></td>
 								<td><span class="status completed">Completed</span></td>
 								<td>
 									<span class="update edit">Edit</span>
 									<span class="update delete">Delete</span>
 								</td>
 							</tr>
-							<tr>
-								<td>
-									<img src="img/people.png">
-									<p>DEF</p>
-								</td>
-								<td>01-10-2017</td>
-								<td><span class="status completed">Completed</span></td>
-								<td>
-									<span class="update edit">Edit</span>
-									<span class="update delete">Delete</span>
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<img src="img/people.png">
-									<p>GHJ</p>
-								</td>
-								<td>01-10-2017</td>
-								<td><span class="status process">Process</span></td>
-								<td>
-									<span class="update edit">Edit</span>
-									<span class="update delete">Delete</span>
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<img src="img/people.png">
-									<p>IKL</p>
-								</td>
-								<td>01-10-2017</td>
-								<td><span class="status pending">Pending</span></td>
-								<td>
-									<span class="update edit">Edit</span>
-									<span class="update delete">Delete</span>
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<img src="img/people.png">
-									<p>MNO</p>
-								</td>
-								<td>01-10-2017</td>
-								<td><span class="status completed">Completed</span></td>
-								<td>
-									<span class="update edit">Edit</span>
-									<span class="update delete">Delete</span>
-								</td>
-							</tr>
+							<?php 
+								}
+							?>
 						</tbody>
 					</table>
 				</div>

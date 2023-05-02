@@ -37,6 +37,23 @@ function getAdmins() {
     return $admins;
 }
 
+function getUser() {
+    $users = array();
+    $conn = getCon();
+   
+    $sql = "SELECT * FROM tb_login";
+    $result = $conn->query($sql);
+
+    if ($result->num_rows > 0) {
+        while($row = $result->fetch_assoc()) {
+            array_push($users,$row);
+        }
+    }
+
+    closeCon($conn);
+    return $users;
+}
+
 function deleteAdmin($email){
     $conn = getCon();
 

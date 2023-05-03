@@ -1,7 +1,6 @@
 <?php
 include "header.php";
 include "dologin.php";
-
 ?>
 
 <div class="user">
@@ -35,58 +34,27 @@ include "dologin.php";
                     <i class="fa-solid fa-right-from-bracket"></i>
                     <strong>Đăng xuất</strong>
                 </a>
-            </ul> 
+            </ul>  
         </div>
     </div>
     <div class="user-main">
-
-
-    <div class="table-data">
-				<div class="order">
-					<div class="head">
-						<h3>Thông tin tour</h3>
-						<i class='bx bx-search' ></i>
-						<i class='bx bx-filter' ></i>
-					</div>
-					<table>
-						<thead>
-							<tr>
-								<th>Mã tour</th>
-								<th>Email</th>
-								<th>Số vé</th>
-								<th>Giá</th>
-							</tr>
-						</thead>
-						<tbody>
-							<?php
-							?>
-
-							<tr>
-								<td>
-									<p>asd</p>
-								</td>
-								<td>asd</td>
-								<td>asd</td>
-								<td>
-									<span class="update edit">Edit</span>
-									<span class="update delete">Delete</span>
-								</td>
-							</tr>
-							
-							<?php
-								
-							?>
-						</tbody>
-					</table>
-				</div>
-			</div>
-
-
+        <h2>Đổi mật khẩu</h2>    
+        <div class="textbox">
+            <label for="name">Mật khẩu cũ</label> 
+            <input type="text" id="name" name="name" placeholder="Mật khẩu cũ" class="form-control"><br>
+        </div> 
+        <div class="textbox">
+            <label for="birthday">Mật khẩu mới</label> 
+            <input type="text" id="birthday" name="birthday" placeholder="Mật khẩu mới" class="form-control"><br>
+        </div>
+        <div class="textbox">
+            <label for="phonenumber">Nhập lại mật khẩu mới</label> 
+            <input type="text" id="phonenumber" name="phonenumber" placeholder="Nhập mật khẩu mới" class="form-control"><br>
+        </div>
+        <div class="changepasswordbtn">
+            <a href="#">Link Button</a>
+        </div>
     </div>
-            
-
-
-
 </div>
 
 <?php

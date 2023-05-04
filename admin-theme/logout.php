@@ -17,8 +17,12 @@
       <div class="boxed-group-inner">
         <section>
           <h4>Do you want exit?</h4>
-  
-          <button class="btn btn-danger boxed-action" id="delete-account">EXIT</button>
+                  <script>
+										function clickonlogout(){
+											alert("LOGGED OUT");
+										}
+									</script>
+          <button class="btn btn-danger boxed-action" id="delete-account"><a href="index_logout.php" onclick="clickonlogout()">EXIT</a></button>
           <p>You are about to close your account. It will exit your account along with its associated data. Are you sure you want to continue?</p>
           </dialog>
   

@@ -1,6 +1,13 @@
 <?php
 include "header.php";
-include "dologin.php";
+include "db_helperforUSER.php";
+
+$user_tours=getTours($_SESSION['email']);
+
+// print("<pre>");
+// print_r($user_tours);
+// die();
+
 
 ?>
 
@@ -54,27 +61,25 @@ include "dologin.php";
 								<th>Mã tour</th>
 								<th>Email</th>
 								<th>Số vé</th>
-								<th>Giá</th>
+								<th>Total</th>
 							</tr>
 						</thead>
 						<tbody>
 							<?php
+                                foreach($user_tours as $user_tour){
 							?>
 
 							<tr>
 								<td>
-									<p>asd</p>
+									<p><?php echo $user_tour['MaTour'] ?></p>
 								</td>
-								<td>asd</td>
-								<td>asd</td>
-								<td>
-									<span class="update edit">Edit</span>
-									<span class="update delete">Delete</span>
-								</td>
+								<td><?php echo $user_tour['EMail'] ?></td>
+								<td><?php echo $user_tour['NumberTicket'] ?></td>
+								<td><?php echo $user_tour['Total'] ?></td>
 							</tr>
 							
 							<?php
-								
+                                }
 							?>
 						</tbody>
 					</table>

@@ -152,8 +152,12 @@ $admins = getAdmins();
 								<td><?php echo $admin['Email'] ?></td>
 								<td><?php echo $admin['Phone'] ?></td>
 								<td>
-									<span class="update edit">Edit</span>
-									<span class="update delete">Delete</span>
+									<script>
+										function clickondelete(){
+											alert("DELETED");
+										}
+									</script>
+									<span class="update delete"><a href="team_delete.php?adminemail=<?php echo $admin['Email'] ?>" onclick="clickondelete()">Delete</a></span>
 								</td>
 							</tr>
 							

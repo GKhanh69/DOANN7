@@ -70,7 +70,7 @@ $users = getUser();
 				</a>
 			</li>
 			<li>
-				<a href="logout.html" class="logout">
+				<a href="logout.php" class="logout">
 					<i class='bx bxs-log-out-circle' ></i>
 					<span class="text">Logout</span>
 				</a>
@@ -175,8 +175,12 @@ $users = getUser();
 								<td><?php echo $user['EMail'] ?></td>
 								<td><span class="status completed">Completed</span></td>
 								<td>
-									<span class="update edit">Edit</span>
-									<span class="update delete">Delete</span>
+									<script>
+										function clickondelete(){
+											alert("DELETED");
+										}
+									</script>
+									<span class="update delete"><a href="index_delete.php?useremail=<?php echo $user['EMail'] ?>" onclick="clickondelete()">Delete</a></span>
 								</td>
 							</tr>
 							<?php 

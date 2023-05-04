@@ -1,0 +1,232 @@
+body{
+    background-color: #33FF42;
+}
+.mainpage{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    background-color: white;
+    margin: 30px;
+    width: -30px;
+}
+
+
+.Intro{
+    background-color: black;
+}
+.Intro .pic{
+    display: block;
+    height: 500px;
+    text-align: center;
+    border-bottom: 2px solid gray;
+}
+.Intro .pic img{
+    padding-top: 50px;
+    border-radius: 50%;
+    width: 300px;
+}
+.Intro .pic h1{
+    color: white;
+    font-size: xxx-large;
+    font-family: 'Courier New', Courier, monospace;
+}
+.Intro .pic h3{
+    color: white;
+    font-size: x-large;
+    text-decoration: underline;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+
+.Intro .Intro-inner{
+    margin-left: 50px;
+}
+.Intro .Intro-inner h2{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xx-large;
+}
+.Intro .Intro-inner .inner{
+    display: flex;
+    flex-wrap: wrap;
+}
+.Intro .Intro-inner .inner .comp{
+    color: #33FF42;
+}
+.Intro .Intro-inner .inner .txt{
+    padding-left: 20px;
+    color: white;
+}
+.Intro .Intro-inner .inner2{
+    display: block;
+}
+.Intro .Intro-inner .inner2 .time{
+    color: #33FF42;
+}
+.Intro .Intro-inner .inner2 .school{
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+.Intro .Intro-inner .inner2 .place{
+    color: white;
+    font-size: large;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.profile{
+    margin-left: 30px;
+}
+.profile .section .secth{
+    color: rgb(24, 226, 44);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xx-large;
+}
+.profile .section .content{
+    color: gray;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+.profile .section .skill{
+    display:  grid;
+    grid-template-columns: 23% 23% 23% 23%;
+    gap: 2%;
+}
+.profile .section .skill img{
+    width: 200px;
+}
+.profile .section .interest{
+    display:  grid;
+    grid-template-columns: 23% 23% 23% 23%;
+    gap: 2%;
+}
+.profile .section .interest .group{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.profile .section .interest .group p{
+    text-align: center;
+    padding-top: 20px;
+    color: orange;
+    font-size: x-large;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.profile .section .interest .group img{
+    width: 200px;
+}
+
+
+
+
+
+/*slider*/
+.slideshow-container {
+    height: 550px;
+    max-width: 500px;
+    position:relative;
+    margin: auto;
+    margin-top: 110px;
+    background-color: wheat;
+    text-align: center;
+    z-index: 1;
+}
+.mySlides img{
+    display: block;
+    text-align: center;
+    height: 500px;
+    width: 500px;
+}
+.mySlides {
+    display: none;
+  }
+  
+  /* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+  
+  /* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+ }
+
+.prev {
+    left: 0;
+}
+  
+  /* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+  
+  /* Caption text */
+.text {
+    color: blue;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+  
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+  
+  /* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+  
+.active, .dot:hover {
+    background-color: #717171;
+}
+  
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+  
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}

@@ -61,6 +61,18 @@ $users = getUser();
 					<span class="text">Team</span>
 				</a>
 			</li>
+			<li>
+				<a href="add.php">
+				    <i class='bx bxs-smile'></i>
+					<span class="text">Add new travel</span>
+				</a>
+			</li>
+			<li>
+				<a href="manager.php">
+				    <i class='bx bxs-doughnut-chart' ></i>
+					<span class="text">Tour manager</span>
+				</a>
+			</li>
 		</ul>
 		<ul class="side-menu">
 			<li>

@@ -94,125 +94,102 @@ include 'header.php';
 
 
 
-<!-- recommend section starts  -->
+<!-- news section ends -->
+<div class="content-section" id="news">
+    <section class="news" id="news">
 
-<div class="content-section" id="recommend">
-
-    <h2 class="section-heading">
-        <span>R</span>
-        <span>E</span>
-        <span>C</span>
-        <span>O</span>
-        <span>M</span>
-        <span>M</span>
-        <span>E</span>
-        <span>N</span>
-        <span>D</span>
-    </h2>
-
-    <div class="box-container">
-
-        <div class="box">
-            <img src="./assets/img/HA.jpg" alt="">
-            <div class="content">
-                <h3> <i class="fas fa-map-marker-alt"></i> Hội An </h3>
-                <p>Thành phố Hội An nằm bên bờ bắc hạ lưu sông Thu Bồn. Hội An là một đô thị cổ của Việt Nam</p>
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="far fa-star"></i>
+        <h1 class="section-heading">
+            <span>N</span>
+            <span>E</span>
+            <span>W</span>
+            <span>S</span>
+            
+        </h1>
+    
+        <div class="box-container">
+    
+            <div class="box">
+                <img src="assets/img/SD.jpg">
+                <div class="content">
+                    <h3>Sơn Đoòng</h3>
+                    <p>Hang động tự nhiên lớn nhất hành tinh</p>
+                    <a href="https://oxalisadventure.com/vi/cave/hang-son-doong/"> <button name="button" type="button">See more</button> </a>
+    
                 </div>
-                <a href="books.php" class="btn">Book now</a>
             </div>
-        </div>
-
-        <div class="box">
-            <img src="./assets/img/VHL.jpg" alt="">
-            <div class="content">
-                <h3> <i class="fas fa-map-marker-alt"></i> Vịnh Hạ Long </h3>
-                <p>Vịnh Hạ Long là một vịnh nhỏ thuộc phần bờ tây vịnh Bắc Bộ tại khu vực biển Đông Bắc Việt Nam, bao gồm vùng biển đảo của thành phố Hạ Long thuộc tỉnh Quảng Ninh.</p>
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="far fa-star"></i>
+            <div class="box">
+                <img src="assets/img/DL.jpg" alt="">
+                <div class="content">
+                    <h3>Đà Lạt</h3>
+                    <p>Một đêm lang thang</p>
+                    <a href="https://dalattrongtoi.com/da-lat-trong-toi/da-lat-mot-dem-lang-thang.html"> <button name="button" type="button">See more</button> </a>
                 </div>
-                <a href="books.php" class="btn">Book now</a>
             </div>
-        </div>
-
-        <div class="box">
-            <img src="./assets/img/MCC.jpg" alt="">
-            <div class="content">
-                <h3> <i class="fas fa-map-marker-alt"></i> Mù Cang Chải </h3>
-                <p>Mù Cang Chải là huyện vùng cao phía Tây của tỉnh Yên Bái, cách trung tâm thành phố Yên Bái 180km, cách thủ đô Hà Nội hơn 300km về phía Tây Bắc. Vùng đất này nằm dưới chân của dãy núi Hoàng Liên Sơn, ở độ cao trên 2.000m so với mặt biển.</p>
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="far fa-star"></i>
+            <div class="box">
+                <img src="assets/img/DN.jpg" alt="">
+                <div class="content">
+                    <h3>Đà Nẵng</h3>
+                    <p>Thành phố đáng sống</p>
+                    <a href="https://danangbest.com/dia-diem-du-lich-gan-day.html"> <button name="button" type="button">See more</button> </a>
                 </div>
-                <a href="books.php" class="btn">Book now</a>
             </div>
-        </div>
-
-        <div class="box">
-            <img src="./assets/img/PQ.jpg" alt="">
-            <div class="content">
-                <h3> <i class="fas fa-map-marker-alt"></i> Phú Quốc </h3>
-                <p>Phú Quốc là một hòn đảo nằm trong vịnh Thái Lan và là đảo lớn nhất Việt Nam. Về hành chính, đảo Phú Quốc cùng với các đảo nhỏ hơn ở lân cận và quần đảo Thổ Chu cách 55 hải lý về phía tây nam hợp thành thành phố đảo Phú Quốc trực thuộc tỉnh Kiên Giang.</p>
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="far fa-star"></i>
+            <div class="box">
+                <img src="assets/img/SP.jpg" alt="">
+                <div class="content">
+                    <h3>Sa Pa</h3>
+                    <p>Nơi gặp gỡ đất trời</p>
+                    <a href="https://toigingiuvedep.vn/hinh-anh-sapa-dep/"> <button name="button" type="button">See more</button> </a>
                 </div>
-                <a href="books.php" class="btn">Book now</a>
             </div>
-        </div>
-
-        <div class="box">
-            <img src="./assets/img/HUE.jpg" alt="">
-            <div class="content">
-                <h3> <i class="fas fa-map-marker-alt"></i> Huế </h3>
-                <p>Huế từng là vùng đất cố đô mang đậm dấu ấn lịch sử. Quần thể di tích Cố đô Huế được UNESCO ghi danh là Di sản Văn hoá Thế giới đầu tiên vào năm 1993.</p>
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="far fa-star"></i>
+            <div class="box">
+                <img src="assets/img/PT.jpg" alt="">
+                <div class="content">
+                    <h3>Phan Thiết</h3>
+                    <p>Vẻ đẹp miền cát trắng</p>
+                    <a href="https://sgtravel.vn/phan-thiet-ve-dep-mien-cat-trang/"> <button name="button" type="button">See more</button> </a> 
                 </div>
-                <a href="books.php" class="btn">Book now</a>
             </div>
-        </div>
-
-        <div class="box">
-            <img src="./assets/img/HG.jpg" alt="">
-            <div class="content">
-                <h3> <i class="fas fa-map-marker-alt"></i> Hà Giang </h3>
-                <p>Hà Giang là một tỉnh thuộc vùng Đông Bắc Bộ, Việt Nam.</p>
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="far fa-star"></i>
+            <div class="box">
+                <img src="assets/img/HN.jpg" alt="">
+                <div class="content">
+                    <h3>Hà Nội</h3>
+                    <p>Thủ đô nghìn năm văn hiến</p>
+                    <a href="https://dulichkhampha24.com/gioi-thieu-ve-ha-noi.html"> <button name="button" type="button">See more</button> </a> 
                 </div>
-                <a href="books.php" class="btn">Book now</a>
             </div>
+            <div class="box">
+                <img src="assets/img/PN.jpg" alt="">
+                <div class="content">
+                    <h3>Phong Nha</h3>
+                    <p>Kỳ quan đệ nhất động</p>
+                    <a href="https://phongnhaexplorer.com/phong-nha/dong-phong-nha-4.html"> <button name="button" type="button">See more</button> </a> 
+                </div>
+            </div>
+            <div class="box">
+                <img src="assets/img/NT.jpg" alt="">
+                <div class="content">
+                    <h3>Nha Trang</h3>
+                    <p>Thành phố biển xinh đẹp</p>
+                    <a href="https://www.dulichvtv.com/blog/nha-trang-thanh-pho-bien-xinh-dep/"> <button name="button" type="button">See more</button> </a> 
+                </div>
+            </div>
+            <div class="box">
+                <img src="assets/img/CN.jpg" alt="">
+                <div class="content">
+                    <h3>Chợ nổi</h3>
+                    <p>Độc đáo miền sông nước</p>
+                    <a href="https://vn.alongwalker.co/tap-nap-cho-noi-cai-rang-sac-mau-van-hoa-mien-tay-doc-dao-s336392.html"> <button name="button" type="button">See more</button> </a> 
+                </div>
+            </div>
+    
         </div>
-
-    </div>
-
+    
 </div>
 
-<!-- recommend section ends -->
+
+    
+
+<!-- news section ends-->
 
 
  <!-- services section starts  -->

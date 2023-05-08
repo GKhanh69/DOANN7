@@ -207,6 +207,9 @@ ALTER TABLE `tb_booktour`
   ADD CONSTRAINT `tb_booktour_ibfk_1` FOREIGN KEY (`MaTour`) REFERENCES `tb_tourdulich` (`MaTour`);
 COMMIT;
 
+ALTER TABLE 'admins' ADD 'EMAIL' VARCHAR(255) NOT NULL AFTER 'password', ADD 'Phone' INT(255) NOT NULL AFTER 'email';
+UPDATE 'admins'  SET `Email` = 'hoangmai@gmail.com', `Phone` = '063835820' WHERE `admins`.`id` = 12312;
+UPDATE `admins` SET `Email` = 'austin@gmail.com', `Phone` = '0256874152' WHERE `admins`.`id` = 5233;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

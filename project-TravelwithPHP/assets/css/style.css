@@ -86,7 +86,7 @@ ul {
     display: inline-block;
     float: none;
     position: absolute;
-    top: 65%;
+    top: 75%;
     left: 50%;
     transform: translate(-50%, -50%);
 }

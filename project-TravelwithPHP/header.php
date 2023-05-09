@@ -80,8 +80,8 @@ session_start();
                     <li><a href = "books.php">BOOK NOW</a></li>
                     <li><a href = "blog.php">BLOG</a></li>
                     <li><a href = "contact.php">CONTACT</a></li>
-		    <div id="search-container">
-                    <li>
+		            <div id="search-container">
+                    <!-- <li>
                     <div id="search-container">
                        <form method="GET" action="<?php echo $_SERVER['PHP_SELF']; ?>">
                           <input type="text" name="search" placeholder="Search...">
@@ -89,14 +89,18 @@ session_start();
                         </form>
                         <i class="fa fa-search" id="search-icon"></i>
                     </div>
-                    </li>
+                    </li> -->
                 </ul>
             </div>
             <div class="title">
                     <b style = "font-family: 'Courier New', Courier, monospace; color: #fff; font-size: 24px;">F5 TRAVEL</b>
             </div>
             <div class="search-btn">
-                <i class="search-icon ti-search"></i>
+            <form method="GET" action="<?php echo $_SERVER['PHP_SELF']; ?>">
+                          <input type="text" name="search" placeholder="Search..." style = "width: 200px; height: 38px">
+                          <button type="submit">Search</button>
+                        </form>
+                <!-- <i class="search-icon ti-search"></i> -->
             </div>
         </div>
 <style>

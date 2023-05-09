@@ -50,7 +50,7 @@
             <div id="nav-container">
                 <ul id="nav">
                     <li><a href = "index.php">HOME</a></li>
-                    <li><a href = "about.php">ABOUT</a></li>
+                    <li><a href = "about.html">ABOUT</a></li>
                     <li><a href = "recommend.php">RECOMMEND</a></li>
                     <li><a href = "books.php">BOOK NOW</a></li>
                     <li><a href = "blog.php">BLOG</a></li>
